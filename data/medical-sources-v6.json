@@ -1,0 +1,417 @@
+[
+  {
+    "file": "detail-rider_stent-v5.html",
+    "title": "스텐트삽입술, 조금 더 자세히 알아보기",
+    "sources": [
+      {
+        "org": "질병관리청 국가건강정보포털",
+        "title": "뇌졸중",
+        "url": "https://health.kdca.go.kr/"
+      },
+      {
+        "org": "서울아산병원",
+        "title": "뇌경색·뇌졸중 치료",
+        "url": "https://health.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31996"
+      },
+      {
+        "org": "서울아산병원",
+        "title": "협심증",
+        "url": "https://amccp.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32179"
+      }
+    ]
+  },
+  {
+    "file": "detail-rider_brain_thrombectomy-v5.html",
+    "title": "뇌경색 혈전제거술, 조금 더 자세히 알아보기",
+    "sources": [
+      {
+        "org": "질병관리청 국가건강정보포털",
+        "title": "뇌졸중",
+        "url": "https://health.kdca.go.kr/"
+      },
+      {
+        "org": "서울아산병원",
+        "title": "뇌동맥 폐쇄",
+        "url": "https://amccp.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31752"
+      },
+      {
+        "org": "서울아산병원",
+        "title": "뇌경색·뇌졸중 치료",
+        "url": "https://health.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31996"
+      }
+    ]
+  },
+  {
+    "file": "detail-rider_heart_thrombectomy-v5.html",
+    "title": "급성 심근경색과 혈전 치료 이해하기",
+    "sources": [
+      {
+        "org": "질병관리청 국가건강정보포털",
+        "title": "급성 심근경색증",
+        "url": "https://health.kdca.go.kr/"
+      },
+      {
+        "org": "서울아산병원",
+        "title": "동맥색전증 및 혈전증",
+        "url": "https://amccp.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31751"
+      },
+      {
+        "org": "서울아산병원",
+        "title": "협심증",
+        "url": "https://amccp.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32179"
+      }
+    ]
+  },
+  {
+    "file": "detail-rider_cerebral_embolization-v5.html",
+    "title": "뇌동맥류 코일색전술 이해하기",
+    "sources": [
+      {
+        "org": "질병관리청 국가건강정보포털",
+        "title": "뇌동맥류",
+        "url": "https://health.kdca.go.kr/"
+      },
+      {
+        "org": "서울아산병원",
+        "title": "뇌동맥류 코일색전술",
+        "url": "https://heart.amc.seoul.kr/asan/healthtv/video/videoDetail.do?videoId=2634"
+      }
+    ]
+  },
+  {
+    "file": "detail-rider_stroke_icu-v5.html",
+    "title": "뇌졸중과 중환자실 집중치료 이해하기",
+    "sources": [
+      {
+        "org": "질병관리청 국가건강정보포털",
+        "title": "뇌졸중",
+        "url": "https://health.kdca.go.kr/"
+      },
+      {
+        "org": "질병관리청 국가건강정보포털",
+        "title": "중환자실 치료",
+        "url": "https://health.kdca.go.kr/"
+      },
+      {
+        "org": "서울아산병원",
+        "title": "뇌경색·뇌졸중 치료",
+        "url": "https://health.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31996"
+      }
+    ]
+  },
+  {
+    "file": "detail-rider_brain_heart_major-v5.html",
+    "title": "뇌·심장 주요치료를 한 번에 이해하기",
+    "sources": [
+      {
+        "org": "질병관리청 국가건강정보포털",
+        "title": "뇌졸중",
+        "url": "https://health.kdca.go.kr/"
+      },
+      {
+        "org": "질병관리청 국가건강정보포털",
+        "title": "급성 심근경색증",
+        "url": "https://health.kdca.go.kr/"
+      },
+      {
+        "org": "질병관리청 국가건강정보포털",
+        "title": "중환자실 치료",
+        "url": "https://health.kdca.go.kr/"
+      },
+      {
+        "org": "서울아산병원",
+        "title": "뇌경색·뇌졸중 치료",
+        "url": "https://health.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31996"
+      }
+    ]
+  },
+  {
+    "file": "detail-rider_circ_major-v5.html",
+    "title": "순환계질환 주요치료 이해하기",
+    "sources": [
+      {
+        "org": "질병관리청 국가건강정보포털",
+        "title": "뇌졸중",
+        "url": "https://health.kdca.go.kr/"
+      },
+      {
+        "org": "질병관리청 국가건강정보포털",
+        "title": "급성 심근경색증",
+        "url": "https://health.kdca.go.kr/"
+      },
+      {
+        "org": "서울아산병원",
+        "title": "동맥색전증 및 혈전증",
+        "url": "https://amccp.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31751"
+      }
+    ]
+  },
+  {
+    "file": "detail-rider_circ_oral_1-v5.html",
+    "title": "항응고제 경구치료 이해하기",
+    "sources": [
+      {
+        "org": "질병관리청 국가건강정보포털",
+        "title": "항응고요법",
+        "url": "https://health.kdca.go.kr/"
+      },
+      {
+        "org": "서울아산병원",
+        "title": "뇌경색·뇌졸중 치료",
+        "url": "https://health.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31996"
+      }
+    ]
+  },
+  {
+    "file": "detail-rider_circ_oral_2-v5.html",
+    "title": "항혈소판제 경구치료 이해하기",
+    "sources": [
+      {
+        "org": "서울아산병원",
+        "title": "뇌경색·뇌졸중 치료",
+        "url": "https://health.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31996"
+      },
+      {
+        "org": "서울아산병원",
+        "title": "동맥색전증 및 혈전증",
+        "url": "https://amccp.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31751"
+      },
+      {
+        "org": "서울아산병원",
+        "title": "협심증",
+        "url": "https://amccp.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32179"
+      }
+    ]
+  },
+  {
+    "file": "detail-rider_circ_injection-v5.html",
+    "title": "항응고·항혈소판 주사치료 이해하기",
+    "sources": [
+      {
+        "org": "질병관리청 국가건강정보포털",
+        "title": "항응고요법",
+        "url": "https://health.kdca.go.kr/"
+      },
+      {
+        "org": "서울아산병원",
+        "title": "동맥색전증 및 혈전증",
+        "url": "https://amccp.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31751"
+      },
+      {
+        "org": "서울아산병원",
+        "title": "뇌경색·뇌졸중 치료",
+        "url": "https://health.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31996"
+      }
+    ]
+  },
+  {
+    "file": "detail-cancer_major-v5.html",
+    "title": "암의 주요치료, 무엇을 말하나요?",
+    "sources": [
+      {
+        "org": "국립암센터 국가암정보센터",
+        "title": "암 치료 정보",
+        "url": "https://www.cancer.go.kr/"
+      },
+      {
+        "org": "국립암센터 국가암정보센터",
+        "title": "방사선치료의 이해",
+        "url": "https://www.cancer.go.kr/lay1/S1T292C293/contents.do"
+      },
+      {
+        "org": "서울대학교암병원",
+        "title": "방사선종양학과 환자정보",
+        "url": "https://cancer.snuh.org/reservation/meddept/ROC/cancerFaq.do"
+      },
+      {
+        "org": "삼성서울병원 암병원",
+        "title": "방사선 치료 정보",
+        "url": "https://www.samsunghospital.com/home/cancer/info.do?view=RADIATION_KIND50"
+      }
+    ]
+  },
+  {
+    "file": "detail-cancer_major_tertiary-v5.html",
+    "title": "상급종합병원에서 받는 암 주요치료 이해하기",
+    "sources": [
+      {
+        "org": "국립암센터 국가암정보센터",
+        "title": "암 치료 정보",
+        "url": "https://www.cancer.go.kr/"
+      },
+      {
+        "org": "국립암센터 국가암정보센터",
+        "title": "방사선치료의 이해",
+        "url": "https://www.cancer.go.kr/lay1/S1T292C293/contents.do"
+      },
+      {
+        "org": "서울대학교암병원",
+        "title": "방사선종양학과 환자정보",
+        "url": "https://cancer.snuh.org/reservation/meddept/ROC/cancerFaq.do"
+      }
+    ]
+  },
+  {
+    "file": "detail-cancer_noncovered_major-v5.html",
+    "title": "비급여 암 주요치료를 이해하기",
+    "sources": [
+      {
+        "org": "국립암센터 국가암정보센터",
+        "title": "암 치료 정보",
+        "url": "https://www.cancer.go.kr/"
+      },
+      {
+        "org": "국립암센터 국가암정보센터",
+        "title": "방사선치료의 이해",
+        "url": "https://www.cancer.go.kr/lay1/S1T292C293/contents.do"
+      },
+      {
+        "org": "서울대학교암병원",
+        "title": "방사선종양학과 환자정보",
+        "url": "https://cancer.snuh.org/reservation/meddept/ROC/cancerFaq.do"
+      },
+      {
+        "org": "삼성서울병원 암병원",
+        "title": "방사선 치료 정보",
+        "url": "https://www.samsunghospital.com/home/cancer/info.do?view=RADIATION_KIND50"
+      }
+    ]
+  },
+  {
+    "file": "detail-cancer_noncovered_drug-v5.html",
+    "title": "항암약물치료를 조금 더 자세히 알아보기",
+    "sources": [
+      {
+        "org": "국립암센터 국가암정보센터",
+        "title": "암 치료 정보",
+        "url": "https://www.cancer.go.kr/"
+      },
+      {
+        "org": "삼성서울병원 암병원",
+        "title": "방사선 치료 정보",
+        "url": "https://www.samsunghospital.com/home/cancer/info.do?view=RADIATION_KIND50"
+      }
+    ]
+  },
+  {
+    "file": "detail-cancer_imrt-v5.html",
+    "title": "세기조절방사선치료(IMRT) 이해하기",
+    "sources": [
+      {
+        "org": "국립암센터 국가암정보센터",
+        "title": "방사선치료의 이해",
+        "url": "https://www.cancer.go.kr/lay1/S1T292C293/contents.do"
+      },
+      {
+        "org": "서울대학교암병원",
+        "title": "방사선종양학과 환자정보",
+        "url": "https://cancer.snuh.org/reservation/meddept/ROC/cancerFaq.do"
+      },
+      {
+        "org": "삼성서울병원 암병원",
+        "title": "방사선 치료 정보",
+        "url": "https://www.samsunghospital.com/home/cancer/info.do?view=RADIATION_KIND50"
+      }
+    ]
+  },
+  {
+    "file": "detail-cancer_proton-v5.html",
+    "title": "양성자방사선치료 이해하기",
+    "sources": [
+      {
+        "org": "국립암센터 국가암정보센터",
+        "title": "방사선치료의 이해",
+        "url": "https://www.cancer.go.kr/lay1/S1T292C293/contents.do"
+      },
+      {
+        "org": "서울대학교암병원",
+        "title": "방사선종양학과 환자정보",
+        "url": "https://cancer.snuh.org/reservation/meddept/ROC/cancerFaq.do"
+      },
+      {
+        "org": "삼성서울병원 암병원",
+        "title": "방사선 치료 정보",
+        "url": "https://www.samsunghospital.com/home/cancer/info.do?view=RADIATION_KIND50"
+      }
+    ]
+  },
+  {
+    "file": "detail-cancer_stereotactic_rt-v5.html",
+    "title": "정위적방사선치료 이해하기",
+    "sources": [
+      {
+        "org": "국립암센터 국가암정보센터",
+        "title": "방사선치료의 이해",
+        "url": "https://www.cancer.go.kr/lay1/S1T292C293/contents.do"
+      },
+      {
+        "org": "서울대학교암병원",
+        "title": "방사선종양학과 환자정보",
+        "url": "https://cancer.snuh.org/reservation/meddept/ROC/cancerFaq.do"
+      },
+      {
+        "org": "삼성서울병원 암병원",
+        "title": "방사선 치료 정보",
+        "url": "https://www.samsunghospital.com/home/cancer/info.do?view=RADIATION_KIND50"
+      }
+    ]
+  },
+  {
+    "file": "detail-cancer_heavy_ion-v5.html",
+    "title": "중입자방사선치료 이해하기",
+    "sources": [
+      {
+        "org": "국립암센터 국가암정보센터",
+        "title": "방사선치료의 이해",
+        "url": "https://www.cancer.go.kr/lay1/S1T292C293/contents.do"
+      },
+      {
+        "org": "서울대학교암병원",
+        "title": "방사선종양학과 환자정보",
+        "url": "https://cancer.snuh.org/reservation/meddept/ROC/cancerFaq.do"
+      }
+    ]
+  },
+  {
+    "file": "detail-cancer_davinci-v5.html",
+    "title": "다빈치 로봇수술 이해하기",
+    "sources": [
+      {
+        "org": "국립암센터 국가암정보센터",
+        "title": "암 치료 정보",
+        "url": "https://www.cancer.go.kr/"
+      },
+      {
+        "org": "삼성서울병원",
+        "title": "로봇수술 환자정보",
+        "url": "https://www.samsunghospital.com/dept/medical/healthSub02View.do?DP_CODE=RT&content_id=1740"
+      },
+      {
+        "org": "세브란스병원",
+        "title": "로봇수술 의료정보",
+        "url": "https://sev.severance.healthcare/news/press/medical-report.do?articleNo=129032&mode=view"
+      }
+    ]
+  },
+  {
+    "file": "detail-cancer_davinci_ex-v5.html",
+    "title": "다빈치 로봇수술 이해하기",
+    "sources": [
+      {
+        "org": "국립암센터 국가암정보센터",
+        "title": "암 치료 정보",
+        "url": "https://www.cancer.go.kr/"
+      },
+      {
+        "org": "삼성서울병원",
+        "title": "로봇수술 환자정보",
+        "url": "https://www.samsunghospital.com/dept/medical/healthSub02View.do?DP_CODE=RT&content_id=1740"
+      },
+      {
+        "org": "세브란스병원",
+        "title": "로봇수술 의료정보",
+        "url": "https://sev.severance.healthcare/news/press/medical-report.do?articleNo=129032&mode=view"
+      }
+    ]
+  }
+]
