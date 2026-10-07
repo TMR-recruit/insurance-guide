@@ -1,0 +1,136 @@
+{
+  "jobs": [
+    {
+      "job_id": "VIDEO_RIDER_BRAIN_THROMBECTOMY",
+      "rider_id": "RIDER_BRAIN_THROMBECTOMY",
+      "language": "ko-KR",
+      "duration_target_sec": "25-35",
+      "aspect_ratio": "16:9",
+      "captions": true,
+      "presenter_style": "professional_friendly_announcer",
+      "voice_script": "뇌경색증특정혈전제거수술특약입니다. 뇌혈관 혈전제거술은 혈전 때문에 막힌 혈관에 카테터로 접근해 혈전을 제거하고 혈류가 다시 흐르도록 하는 치료입니다. 이 특약은 뇌경색증으로 진단확정 + 직접적인 치료 목적 + 약관상 급여 뇌경색증 혈전제거수술에 해당하는 경우를 보장합니다. 보장 횟수는 최초 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "output_filename": "rider_brain_thrombectomy.mp4",
+      "status": "READY_FOR_VIDEO_PROVIDER"
+    },
+    {
+      "job_id": "VIDEO_RIDER_HEART_THROMBECTOMY",
+      "rider_id": "RIDER_HEART_THROMBECTOMY",
+      "language": "ko-KR",
+      "duration_target_sec": "25-35",
+      "aspect_ratio": "16:9",
+      "captions": true,
+      "presenter_style": "professional_friendly_announcer",
+      "voice_script": "급성심근경색증특정혈전제거수술특약입니다. 혈전제거술은 혈관이나 심장·폐동맥 등에 생긴 혈전을 제거해 막힌 혈류를 회복시키는 치료입니다. 이 특약은 급성심근경색증으로 진단확정 + 직접적인 치료 목적 + 약관상 급여 급성심근경색증 혈전제거수술에 해당하는 경우를 보장합니다. 보장 횟수는 최초 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "output_filename": "rider_heart_thrombectomy.mp4",
+      "status": "READY_FOR_VIDEO_PROVIDER"
+    },
+    {
+      "job_id": "VIDEO_RIDER_STENT",
+      "rider_id": "RIDER_STENT",
+      "language": "ko-KR",
+      "duration_target_sec": "25-35",
+      "aspect_ratio": "16:9",
+      "captions": true,
+      "presenter_style": "professional_friendly_announcer",
+      "voice_script": "특정스텐트삽입수술특약입니다. 스텐트삽입술은 좁아진 혈관에 카테터로 접근해 풍선으로 넓힌 뒤, 그물망 형태의 스텐트를 넣어 혈관 안쪽 통로를 유지하도록 돕는 시술입니다. 이 특약은 약관에서 정한 급여 스텐트삽입수술에 해당하는 경우를 보장합니다. 보장 횟수는 각 연간 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "output_filename": "rider_stent.mp4",
+      "status": "READY_FOR_VIDEO_PROVIDER"
+    },
+    {
+      "job_id": "VIDEO_RIDER_CEREBRAL_EMBOLIZATION",
+      "rider_id": "RIDER_CEREBRAL_EMBOLIZATION",
+      "language": "ko-KR",
+      "duration_target_sec": "25-35",
+      "aspect_ratio": "16:9",
+      "captions": true,
+      "presenter_style": "professional_friendly_announcer",
+      "voice_script": "특정뇌동맥질환혈관색전수술특약입니다. 혈관색전술은 카테터로 혈관 안에 접근해 코일 같은 색전 물질을 넣어 치료가 필요한 혈관 부위의 혈류를 차단하는 치료입니다. 이 특약은 특정뇌동맥질환 진단확정 + 직접 치료 목적 + 급여 혈관색전수술(동맥류)에 해당하는 경우를 보장합니다. 보장 횟수는 연간 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "output_filename": "rider_cerebral_embolization.mp4",
+      "status": "READY_FOR_VIDEO_PROVIDER"
+    },
+    {
+      "job_id": "VIDEO_CANCER_MAJOR",
+      "rider_id": "CANCER_MAJOR",
+      "language": "ko-KR",
+      "duration_target_sec": "25-35",
+      "aspect_ratio": "16:9",
+      "captions": true,
+      "presenter_style": "professional_friendly_announcer",
+      "voice_script": "암주요치료특약입니다. 암의 주요 치료에는 수술, 항암약물치료, 방사선치료 등이 포함됩니다. 수술은 암 조직을 제거하고, 항암약물은 약물로 암세포를 치료하며, 방사선치료는 방사선을 이용해 암을 치료합니다. 이 특약은 암 또는 기타피부암·갑상선암의 해당 보장형에서 진단확정 후 보험금 지급기간 내 직접 치료 목적으로 약관상 암주요치료에 해당하는 경우를 보장합니다. 보장 횟수는 최초 진단확정일부터 연간 1회, 최대 10년/10회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "output_filename": "cancer_major.mp4",
+      "status": "READY_FOR_VIDEO_PROVIDER"
+    },
+    {
+      "job_id": "VIDEO_CANCER_MAJOR_TERTIARY",
+      "rider_id": "CANCER_MAJOR_TERTIARY",
+      "language": "ko-KR",
+      "duration_target_sec": "25-35",
+      "aspect_ratio": "16:9",
+      "captions": true,
+      "presenter_style": "professional_friendly_announcer",
+      "voice_script": "상급종합병원암주요치료특약입니다. 암의 주요 치료에는 수술, 항암약물치료, 방사선치료 등이 포함됩니다. 수술은 암 조직을 제거하고, 항암약물은 약물로 암세포를 치료하며, 방사선치료는 방사선을 이용해 암을 치료합니다. 이 특약은 해당 암 진단확정 후 보험금 지급기간 내 직접 치료 목적으로 상급종합병원에서 약관상 암주요치료에 해당하는 경우를 보장합니다. 보장 횟수는 최초 진단확정일부터 연간 1회, 최대 10년/10회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "output_filename": "cancer_major_tertiary.mp4",
+      "status": "READY_FOR_VIDEO_PROVIDER"
+    },
+    {
+      "job_id": "VIDEO_CANCER_NONCOVERED_MAJOR",
+      "rider_id": "CANCER_NONCOVERED_MAJOR",
+      "language": "ko-KR",
+      "duration_target_sec": "25-35",
+      "aspect_ratio": "16:9",
+      "captions": true,
+      "presenter_style": "professional_friendly_announcer",
+      "voice_script": "비급여암주요치료특약입니다. 암의 주요 치료에는 수술, 항암약물치료, 방사선치료 등이 포함됩니다. 수술은 암 조직을 제거하고, 항암약물은 약물로 암세포를 치료하며, 방사선치료는 방사선을 이용해 암을 치료합니다. 이 특약은 암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 최초 진단확정 + 지급기간 내 직접 치료 목적의 급여전액본인부담(비급여포함) 암주요치료에 해당하는 경우를 보장합니다. 보장 횟수는 최초 진단확정일부터 연간 1회, 최대 10년/10회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "output_filename": "cancer_noncovered_major.mp4",
+      "status": "READY_FOR_VIDEO_PROVIDER"
+    },
+    {
+      "job_id": "VIDEO_CANCER_NONCOVERED_DRUG",
+      "rider_id": "CANCER_NONCOVERED_DRUG",
+      "language": "ko-KR",
+      "duration_target_sec": "25-35",
+      "aspect_ratio": "16:9",
+      "captions": true,
+      "presenter_style": "professional_friendly_announcer",
+      "voice_script": "비급여항암약물치료특약입니다. 항암약물치료는 항암제를 사용해 암세포를 치료하는 방법으로, 암의 종류와 상태에 따라 여러 약제가 사용됩니다. 이 특약은 암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 최초 진단확정 + 지급기간 내 직접 치료 목적의 급여전액본인부담(비급여포함) 항암약물치료에 해당하는 경우를 보장합니다. 보장 횟수는 최초 진단확정일부터 연간 1회, 최대 10년/10회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "output_filename": "cancer_noncovered_drug.mp4",
+      "status": "READY_FOR_VIDEO_PROVIDER"
+    },
+    {
+      "job_id": "VIDEO_CANCER_STEREOTACTIC_RT",
+      "rider_id": "CANCER_STEREOTACTIC_RT",
+      "language": "ko-KR",
+      "duration_target_sec": "25-35",
+      "aspect_ratio": "16:9",
+      "captions": true,
+      "presenter_style": "professional_friendly_announcer",
+      "voice_script": "항암정위적방사선치료특약입니다. 정위적방사선치료는 여러 방향에서 방사선을 종양에 집중해 전달하는 고정밀 방사선치료입니다. 이 특약은 암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 항암정위적방사선치료에 해당하는 경우를 보장합니다. 보장 횟수는 최초 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "output_filename": "cancer_stereotactic_rt.mp4",
+      "status": "READY_FOR_VIDEO_PROVIDER"
+    },
+    {
+      "job_id": "VIDEO_CANCER_DAVINCI",
+      "rider_id": "CANCER_DAVINCI",
+      "language": "ko-KR",
+      "duration_target_sec": "25-35",
+      "aspect_ratio": "16:9",
+      "captions": true,
+      "presenter_style": "professional_friendly_announcer",
+      "voice_script": "암다빈치로봇수술특약입니다. 다빈치로봇수술은 의사가 로봇 수술 장비를 조작해 시행하는 로봇 보조 수술입니다. 이 특약은 암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 다빈치로봇 수술에 해당하는 경우를 보장합니다. 보장 횟수는 최초 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "output_filename": "cancer_davinci.mp4",
+      "status": "READY_FOR_VIDEO_PROVIDER"
+    },
+    {
+      "job_id": "VIDEO_CANCER_DAVINCI_EX",
+      "rider_id": "CANCER_DAVINCI_EX",
+      "language": "ko-KR",
+      "duration_target_sec": "25-35",
+      "aspect_ratio": "16:9",
+      "captions": true,
+      "presenter_style": "professional_friendly_announcer",
+      "voice_script": "암다빈치로봇수술특약(갑상선암/전립선암제외)입니다. 다빈치로봇수술은 의사가 로봇 수술 장비를 조작해 시행하는 로봇 보조 수술입니다. 이 특약은 암보장개시일 이후 해당 암 또는 보장개시일 이후 기타피부암 진단확정 + 직접 치료 목적의 다빈치로봇 수술에 해당하는 경우를 보장합니다. 보장 횟수는 최초 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "output_filename": "cancer_davinci_ex.mp4",
+      "status": "READY_FOR_VIDEO_PROVIDER"
+    }
+  ]
+}

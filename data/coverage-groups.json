@@ -1,0 +1,359 @@
+[
+  {
+    "coverage_group": "G_BRAIN_THROMBECTOMY",
+    "medical_concept": "혈전제거술",
+    "categories": [
+      "뇌"
+    ],
+    "riders": [
+      {
+        "rider_id": "R001",
+        "name": "뇌경색증특정혈전제거수술특약(갱신형)",
+        "variant": "갱신형"
+      },
+      {
+        "rider_id": "R002",
+        "name": "뇌경색증특정혈전제거수술특약 LH(무해약환급금형)",
+        "variant": "LH/무해약환급금형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_AMI_THROMBECTOMY",
+    "medical_concept": "혈전제거술",
+    "categories": [
+      "심장"
+    ],
+    "riders": [
+      {
+        "rider_id": "R003",
+        "name": "급성심근경색증특정혈전제거수술특약 LH(무해약환급금형)",
+        "variant": "LH/무해약환급금형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_THROMBOLYSIS",
+    "medical_concept": "혈전용해치료",
+    "categories": [
+      "뇌·심장"
+    ],
+    "riders": [
+      {
+        "rider_id": "R004",
+        "name": "혈전용해치료보장특약(갱신형)Ⅱ",
+        "variant": "갱신형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_CIRC_MAJOR_TX",
+    "medical_concept": "수술·혈전제거·혈전용해",
+    "categories": [
+      "순환계"
+    ],
+    "riders": [
+      {
+        "rider_id": "R005",
+        "name": "순환계질환주요치료특약(각연간 1회한)(갱신형)",
+        "variant": "갱신형"
+      },
+      {
+        "rider_id": "R006",
+        "name": "순환계질환주요치료특약 LH(각연간 1회한)(무해약환급금형)",
+        "variant": "LH/무해약환급금형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_HEART_SURGERY",
+    "medical_concept": "심장질환 수술",
+    "categories": [
+      "심장"
+    ],
+    "riders": [
+      {
+        "rider_id": "R007",
+        "name": "심장질환수술보장특약(갱신형)",
+        "variant": "갱신형"
+      },
+      {
+        "rider_id": "R008",
+        "name": "심장질환수술보장특약 LH(무해약환급금형)",
+        "variant": "LH/무해약환급금형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_ARRHYTHMIA_ABLATION",
+    "medical_concept": "고주파·냉각절제술",
+    "categories": [
+      "심장"
+    ],
+    "riders": [
+      {
+        "rider_id": "R009",
+        "name": "심장부정맥고주파·냉각절제수술특약(갱신형)",
+        "variant": "갱신형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_STENT",
+    "medical_concept": "스텐트삽입술",
+    "categories": [
+      "심장·순환계"
+    ],
+    "riders": [
+      {
+        "rider_id": "R010",
+        "name": "특정스텐트삽입수술특약(갱신형)",
+        "variant": "갱신형"
+      },
+      {
+        "rider_id": "R011",
+        "name": "특정스텐트삽입수술특약 LH(무해약환급금형)",
+        "variant": "LH/무해약환급금형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_BRAIN_EMBOLIZATION",
+    "medical_concept": "혈관색전술",
+    "categories": [
+      "뇌"
+    ],
+    "riders": [
+      {
+        "rider_id": "R012",
+        "name": "특정뇌동맥질환혈관색전수술특약(갱신형)",
+        "variant": "갱신형"
+      },
+      {
+        "rider_id": "R013",
+        "name": "특정뇌동맥질환혈관색전수술특약 LH(무해약환급금형)",
+        "variant": "LH/무해약환급금형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_CANCER_MAJOR_TX",
+    "medical_concept": "암 주요치료",
+    "categories": [
+      "암"
+    ],
+    "riders": [
+      {
+        "rider_id": "R014",
+        "name": "암주요치료특약(기타피부암,갑상선암제외)(연간 1회한, 최대 10회)(갱신형)",
+        "variant": "갱신형"
+      },
+      {
+        "rider_id": "R015",
+        "name": "암주요치료특약 LH(기타피부암,갑상선암제외)(연간 1회한, 최대 10회)(무해약환급금형)",
+        "variant": "LH/무해약환급금형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_CANCER_NONCOVERED_MAJOR",
+    "medical_concept": "비급여 암 주요치료",
+    "categories": [
+      "암"
+    ],
+    "riders": [
+      {
+        "rider_id": "R016",
+        "name": "비급여암주요치료특약(전액본인부담포함)(연간 1회한,최대 10회)(갱신형)",
+        "variant": "갱신형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_CANCER_DRUG_NONCOVERED",
+    "medical_concept": "비급여 항암약물치료",
+    "categories": [
+      "암"
+    ],
+    "riders": [
+      {
+        "rider_id": "R017",
+        "name": "비급여항암약물치료특약(전액본인부담포함)(연간 1회한,최대 10회)(갱신형)",
+        "variant": "갱신형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_TARGETED_DRUG",
+    "medical_concept": "표적항암약물치료",
+    "categories": [
+      "암"
+    ],
+    "riders": [
+      {
+        "rider_id": "R018",
+        "name": "표적항암약물허가치료특약(갱신형) 2형",
+        "variant": "갱신형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_TARGETED_DRUG_NONCOVERED",
+    "medical_concept": "비급여 표적항암약물치료",
+    "categories": [
+      "암"
+    ],
+    "riders": [
+      {
+        "rider_id": "R019",
+        "name": "비급여표적항암약물허가치료특약(갱신형)",
+        "variant": "갱신형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_CART",
+    "medical_concept": "CAR-T 치료",
+    "categories": [
+      "암"
+    ],
+    "riders": [
+      {
+        "rider_id": "R020",
+        "name": "카티(CAR-T)항암약물허가치료특약(갱신형)",
+        "variant": "갱신형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_IMRT",
+    "medical_concept": "세기조절방사선치료",
+    "categories": [
+      "암"
+    ],
+    "riders": [
+      {
+        "rider_id": "R021",
+        "name": "항암세기조절방사선치료특약(갱신형)",
+        "variant": "갱신형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_PROTON",
+    "medical_concept": "양성자방사선치료",
+    "categories": [
+      "암"
+    ],
+    "riders": [
+      {
+        "rider_id": "R022",
+        "name": "항암양성자방사선치료특약(갱신형)",
+        "variant": "갱신형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_CARBON",
+    "medical_concept": "중입자방사선치료",
+    "categories": [
+      "암"
+    ],
+    "riders": [
+      {
+        "rider_id": "R023",
+        "name": "항암중입자방사선치료특약(갱신형)",
+        "variant": "갱신형"
+      },
+      {
+        "rider_id": "R024",
+        "name": "항암중입자방사선치료특약 LH",
+        "variant": "LH"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_SBRT",
+    "medical_concept": "정위적방사선치료",
+    "categories": [
+      "암"
+    ],
+    "riders": [
+      {
+        "rider_id": "R025",
+        "name": "항암정위적방사선치료특약(갱신형)",
+        "variant": "갱신형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_TARGET_RAD",
+    "medical_concept": "특정표적방사선치료",
+    "categories": [
+      "암"
+    ],
+    "riders": [
+      {
+        "rider_id": "R026",
+        "name": "특정표적방사선허가치료특약(갱신형)",
+        "variant": "갱신형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_DAVINCI",
+    "medical_concept": "다빈치 로봇수술",
+    "categories": [
+      "암"
+    ],
+    "riders": [
+      {
+        "rider_id": "R027",
+        "name": "암다빈치로봇수술특약(갱신형) 2형",
+        "variant": "갱신형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_DAVINCI_EXCL",
+    "medical_concept": "다빈치 로봇수술",
+    "categories": [
+      "암"
+    ],
+    "riders": [
+      {
+        "rider_id": "R028",
+        "name": "암다빈치로봇수술특약(갑상선암/전립선암제외)(갱신형) 2형",
+        "variant": "갱신형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_CIRC_INJECTION",
+    "medical_concept": "주사치료",
+    "categories": [
+      "순환계"
+    ],
+    "riders": [
+      {
+        "rider_id": "R029",
+        "name": "특정순환계질환주사치료특약(연간 1회한)(갱신형)",
+        "variant": "갱신형"
+      }
+    ]
+  },
+  {
+    "coverage_group": "G_CIRC_ORAL",
+    "medical_concept": "경구약물치료",
+    "categories": [
+      "순환계"
+    ],
+    "riders": [
+      {
+        "rider_id": "R030",
+        "name": "특정순환계질환경구약물치료특약(연간 1회한)(갱신형)",
+        "variant": "갱신형"
+      }
+    ]
+  }
+]

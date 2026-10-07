@@ -1,0 +1,307 @@
+{
+  "version": "video-ready",
+  "items": [
+    {
+      "rider_id": "RIDER_BRAIN_THROMBECTOMY",
+      "display_name": "뇌경색증특정혈전제거수술특약",
+      "treatment_explanation": "뇌혈관 혈전제거술은 혈전 때문에 막힌 혈관에 카테터로 접근해 혈전을 제거하고 혈류가 다시 흐르도록 하는 치료입니다.",
+      "insurance_explanation": "뇌경색증으로 진단확정 + 직접적인 치료 목적 + 약관상 급여 뇌경색증 혈전제거수술",
+      "frequency": "최초 1회",
+      "script_25_35s": "뇌경색증특정혈전제거수술특약입니다. 뇌혈관 혈전제거술은 혈전 때문에 막힌 혈관에 카테터로 접근해 혈전을 제거하고 혈류가 다시 흐르도록 하는 치료입니다. 이 특약은 뇌경색증으로 진단확정 + 직접적인 치료 목적 + 약관상 급여 뇌경색증 혈전제거수술에 해당하는 경우를 보장합니다. 보장 횟수는 최초 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "서울아산병원 혈관성형술 및 스텐트 삽입술",
+        "url": "https://cancer.amc.seoul.kr/asan/healthinfo/management/managementDetail.do?managementId=415",
+        "status": "verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "RIDER_HEART_THROMBECTOMY",
+      "display_name": "급성심근경색증특정혈전제거수술특약",
+      "treatment_explanation": "혈전제거술은 혈관이나 심장·폐동맥 등에 생긴 혈전을 제거해 막힌 혈류를 회복시키는 치료입니다.",
+      "insurance_explanation": "급성심근경색증으로 진단확정 + 직접적인 치료 목적 + 약관상 급여 급성심근경색증 혈전제거수술",
+      "frequency": "최초 1회",
+      "script_25_35s": "급성심근경색증특정혈전제거수술특약입니다. 혈전제거술은 혈관이나 심장·폐동맥 등에 생긴 혈전을 제거해 막힌 혈류를 회복시키는 치료입니다. 이 특약은 급성심근경색증으로 진단확정 + 직접적인 치료 목적 + 약관상 급여 급성심근경색증 혈전제거수술에 해당하는 경우를 보장합니다. 보장 횟수는 최초 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "서울아산병원 혈관성형술 및 스텐트 삽입술",
+        "url": "https://cancer.amc.seoul.kr/asan/healthinfo/management/managementDetail.do?managementId=415",
+        "status": "verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "RIDER_STENT",
+      "display_name": "특정스텐트삽입수술특약",
+      "treatment_explanation": "스텐트삽입술은 좁아진 혈관에 카테터로 접근해 풍선으로 넓힌 뒤, 그물망 형태의 스텐트를 넣어 혈관 안쪽 통로를 유지하도록 돕는 시술입니다.",
+      "insurance_explanation": "약관에서 정한 급여 스텐트삽입수술",
+      "frequency": "각 연간 1회",
+      "script_25_35s": "특정스텐트삽입수술특약입니다. 스텐트삽입술은 좁아진 혈관에 카테터로 접근해 풍선으로 넓힌 뒤, 그물망 형태의 스텐트를 넣어 혈관 안쪽 통로를 유지하도록 돕는 시술입니다. 이 특약은 약관에서 정한 급여 스텐트삽입수술에 해당하는 경우를 보장합니다. 보장 횟수는 각 연간 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "서울아산병원 혈관성형술 및 스텐트 삽입술",
+        "url": "https://cancer.amc.seoul.kr/asan/healthinfo/management/managementDetail.do?managementId=415",
+        "status": "verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "RIDER_BRAIN_HEART_MAJOR",
+      "display_name": "뇌심주요치료특약",
+      "treatment_explanation": null,
+      "insurance_explanation": "2대질환 진단확정 + 보험금 지급기간 내 직접적인 치료 목적의 2대질환주요치료",
+      "frequency": "최초 진단확정일부터 연간 1회, 최대 10년/10회",
+      "script_25_35s": null,
+      "medical_source": null,
+      "state": "BLOCKED_SOURCE_REVIEW"
+    },
+    {
+      "rider_id": "RIDER_CIRC_MAJOR",
+      "display_name": "순환계질환주요치료특약",
+      "treatment_explanation": null,
+      "insurance_explanation": "약관상 순환계질환(뇌)/(심) 진단확정 + 직접적인 치료 목적",
+      "frequency": "각 세부보장별 연간 1회",
+      "script_25_35s": null,
+      "medical_source": null,
+      "state": "BLOCKED_SOURCE_REVIEW"
+    },
+    {
+      "rider_id": "RIDER_CEREBRAL_EMBOLIZATION",
+      "display_name": "특정뇌동맥질환혈관색전수술특약",
+      "treatment_explanation": "뇌동맥류 코일색전술은 혈관 안으로 접근해 뇌동맥류 안에 코일을 넣고 혈류를 차단해 파열을 예방하는 혈관 내 치료입니다.",
+      "insurance_explanation": "특정뇌동맥질환 진단확정 + 직접 치료 목적 + 급여 혈관색전수술(동맥류)",
+      "frequency": "연간 1회",
+      "script_25_35s": "특정뇌동맥질환혈관색전수술특약입니다. 뇌동맥류 코일색전술은 혈관 안으로 접근해 뇌동맥류 안에 코일을 넣고 혈류를 차단해 파열을 예방하는 혈관 내 치료입니다. 이 특약은 특정뇌동맥질환 진단확정 + 직접 치료 목적 + 급여 혈관색전수술(동맥류)에 해당하는 경우를 보장합니다. 보장 횟수는 연간 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "서울아산병원 뇌동맥류 결찰술·코일색전술 설명",
+        "url": "https://www.amc.seoul.kr/asan/healthinfo/management/managementDetail.do?managementId=248&tabIndex=0",
+        "status": "verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "RIDER_STROKE_ICU",
+      "display_name": "급여뇌졸중집중치료실입원치료특약",
+      "treatment_explanation": "뇌졸중 집중치료실은 급성기 뇌졸중 환자를 집중 관찰하고 치료하는 공간으로, 혈압·산소포화도·심전도 등을 지속적으로 확인하며 급성기 치료를 시행합니다.",
+      "insurance_explanation": "약관상 급여 뇌졸중 집중치료실 치료",
+      "frequency": "연간 1회",
+      "script_25_35s": "급여뇌졸중집중치료실입원치료특약입니다. 뇌졸중 집중치료실은 급성기 뇌졸중 환자를 집중 관찰하고 치료하는 공간으로, 혈압·산소포화도·심전도 등을 지속적으로 확인하며 급성기 치료를 시행합니다. 이 특약은 약관상 급여 뇌졸중 집중치료실 치료에 해당하는 경우를 보장합니다. 보장 횟수는 연간 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "서울아산병원 뇌졸중센터 집중치료실",
+        "url": "https://heart.amc.seoul.kr/asan/depts/stroke/K/content.do?menuId=3340",
+        "status": "verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "RIDER_CIRC_ORAL_1",
+      "display_name": "특정순환계질환경구약물치료특약",
+      "treatment_explanation": "항응고제는 혈액이 굳어 혈전이 생기는 과정을 억제하는 약물입니다. 와파린 같은 경구 항응고제가 여기에 포함됩니다.",
+      "insurance_explanation": "특정순환계질환 진단확정 + 직접 치료 목적 + 90일 이상 약관상 급여 경구약물치료",
+      "frequency": "각 연간 1회",
+      "script_25_35s": "특정순환계질환경구약물치료특약입니다. 항응고제는 혈액이 굳어 혈전이 생기는 과정을 억제하는 약물입니다. 와파린 같은 경구 항응고제가 여기에 포함됩니다. 이 특약은 특정순환계질환 진단확정 + 직접 치료 목적 + 90일 이상 약관상 급여 경구약물치료에 해당하는 경우를 보장합니다. 보장 횟수는 각 연간 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "서울아산병원 뇌졸중센터",
+        "url": "https://cancer.amc.seoul.kr/asan/depts/stroke/K/content.do?menuId=2186",
+        "status": "verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "RIDER_CIRC_ORAL_2",
+      "display_name": "특정순환계질환Ⅱ경구약물치료특약",
+      "treatment_explanation": "항혈소판제는 혈소판이 뭉쳐 혈전이 생기는 것을 억제하는 약물이며, 대표적으로 아스피린이나 클로피도그렐 등이 사용됩니다.",
+      "insurance_explanation": "특정순환계질환Ⅱ 진단확정 + 직접 치료 목적 + 90일 이상 약관상 급여 경구약물치료",
+      "frequency": "각 연간 1회",
+      "script_25_35s": "특정순환계질환Ⅱ경구약물치료특약입니다. 항혈소판제는 혈소판이 뭉쳐 혈전이 생기는 것을 억제하는 약물이며, 대표적으로 아스피린이나 클로피도그렐 등이 사용됩니다. 이 특약은 특정순환계질환Ⅱ 진단확정 + 직접 치료 목적 + 90일 이상 약관상 급여 경구약물치료에 해당하는 경우를 보장합니다. 보장 횟수는 각 연간 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "서울아산병원 뇌졸중센터",
+        "url": "https://cancer.amc.seoul.kr/asan/depts/stroke/K/content.do?menuId=2186",
+        "status": "verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "RIDER_CIRC_INJECTION",
+      "display_name": "특정순환계질환주사치료특약",
+      "treatment_explanation": "항응고제와 항혈소판제는 혈전이 생기는 과정을 억제하는 치료입니다. 항응고제에는 헤파린 같은 주사 제제가 사용될 수 있습니다.",
+      "insurance_explanation": "특정순환계질환 진단확정 + 직접 치료 목적 + 약관상 급여 주사치료",
+      "frequency": "각 연간 1회",
+      "script_25_35s": "특정순환계질환주사치료특약입니다. 항응고제와 항혈소판제는 혈전이 생기는 과정을 억제하는 치료입니다. 항응고제에는 헤파린 같은 주사 제제가 사용될 수 있습니다. 이 특약은 특정순환계질환 진단확정 + 직접 치료 목적 + 약관상 급여 주사치료에 해당하는 경우를 보장합니다. 보장 횟수는 각 연간 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "서울아산병원 뇌졸중센터",
+        "url": "https://cancer.amc.seoul.kr/asan/depts/stroke/K/content.do?menuId=2186",
+        "status": "verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "CANCER_MAJOR",
+      "display_name": "암주요치료특약",
+      "treatment_explanation": "암의 주요 치료에는 수술, 항암약물치료, 방사선치료 등이 포함됩니다. 수술은 암 조직을 제거하고, 항암약물은 약물로 암세포를 치료하며, 방사선치료는 방사선을 이용해 암을 치료합니다.",
+      "insurance_explanation": "암 또는 기타피부암·갑상선암의 해당 보장형에서 진단확정 후 보험금 지급기간 내 직접 치료 목적으로 약관상 암주요치료",
+      "frequency": "최초 진단확정일부터 연간 1회, 최대 10년/10회",
+      "script_25_35s": "암주요치료특약입니다. 암의 주요 치료에는 수술, 항암약물치료, 방사선치료 등이 포함됩니다. 수술은 암 조직을 제거하고, 항암약물은 약물로 암세포를 치료하며, 방사선치료는 방사선을 이용해 암을 치료합니다. 이 특약은 암 또는 기타피부암·갑상선암의 해당 보장형에서 진단확정 후 보험금 지급기간 내 직접 치료 목적으로 약관상 암주요치료에 해당하는 경우를 보장합니다. 보장 횟수는 최초 진단확정일부터 연간 1회, 최대 10년/10회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "국가암정보센터",
+        "url": "https://edu.cancer.go.kr/",
+        "status": "verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "CANCER_MAJOR_TERTIARY",
+      "display_name": "상급종합병원암주요치료특약",
+      "treatment_explanation": "암의 주요 치료에는 수술, 항암약물치료, 방사선치료 등이 포함됩니다. 수술은 암 조직을 제거하고, 항암약물은 약물로 암세포를 치료하며, 방사선치료는 방사선을 이용해 암을 치료합니다.",
+      "insurance_explanation": "해당 암 진단확정 후 보험금 지급기간 내 직접 치료 목적으로 상급종합병원에서 약관상 암주요치료",
+      "frequency": "최초 진단확정일부터 연간 1회, 최대 10년/10회",
+      "script_25_35s": "상급종합병원암주요치료특약입니다. 암의 주요 치료에는 수술, 항암약물치료, 방사선치료 등이 포함됩니다. 수술은 암 조직을 제거하고, 항암약물은 약물로 암세포를 치료하며, 방사선치료는 방사선을 이용해 암을 치료합니다. 이 특약은 해당 암 진단확정 후 보험금 지급기간 내 직접 치료 목적으로 상급종합병원에서 약관상 암주요치료에 해당하는 경우를 보장합니다. 보장 횟수는 최초 진단확정일부터 연간 1회, 최대 10년/10회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "국가암정보센터",
+        "url": "https://edu.cancer.go.kr/",
+        "status": "verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "CANCER_NONCOVERED_MAJOR",
+      "display_name": "비급여암주요치료특약",
+      "treatment_explanation": "암의 주요 치료에는 수술, 항암약물치료, 방사선치료 등이 포함됩니다. 수술은 암 조직을 제거하고, 항암약물은 약물로 암세포를 치료하며, 방사선치료는 방사선을 이용해 암을 치료합니다.",
+      "insurance_explanation": "암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 최초 진단확정 + 지급기간 내 직접 치료 목적의 급여전액본인부담(비급여포함) 암주요치료",
+      "frequency": "최초 진단확정일부터 연간 1회, 최대 10년/10회",
+      "script_25_35s": "비급여암주요치료특약입니다. 암의 주요 치료에는 수술, 항암약물치료, 방사선치료 등이 포함됩니다. 수술은 암 조직을 제거하고, 항암약물은 약물로 암세포를 치료하며, 방사선치료는 방사선을 이용해 암을 치료합니다. 이 특약은 암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 최초 진단확정 + 지급기간 내 직접 치료 목적의 급여전액본인부담(비급여포함) 암주요치료에 해당하는 경우를 보장합니다. 보장 횟수는 최초 진단확정일부터 연간 1회, 최대 10년/10회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "국가암정보센터",
+        "url": "https://edu.cancer.go.kr/",
+        "status": "verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "CANCER_NONCOVERED_DRUG",
+      "display_name": "비급여항암약물치료특약",
+      "treatment_explanation": "항암약물치료는 항암제를 사용해 암세포를 치료하는 방법으로, 암의 종류와 상태에 따라 여러 약제가 사용됩니다.",
+      "insurance_explanation": "암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 최초 진단확정 + 지급기간 내 직접 치료 목적의 급여전액본인부담(비급여포함) 항암약물치료",
+      "frequency": "최초 진단확정일부터 연간 1회, 최대 10년/10회",
+      "script_25_35s": "비급여항암약물치료특약입니다. 항암약물치료는 항암제를 사용해 암세포를 치료하는 방법으로, 암의 종류와 상태에 따라 여러 약제가 사용됩니다. 이 특약은 암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 최초 진단확정 + 지급기간 내 직접 치료 목적의 급여전액본인부담(비급여포함) 항암약물치료에 해당하는 경우를 보장합니다. 보장 횟수는 최초 진단확정일부터 연간 1회, 최대 10년/10회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "국가암정보센터",
+        "url": "https://edu.cancer.go.kr/",
+        "status": "verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "CANCER_IMRT",
+      "display_name": "항암세기조절방사선치료특약",
+      "treatment_explanation": "세기조절방사선치료는 방사선 조사면을 여러 영역으로 나누고 각 영역의 방사선 세기를 조절해 종양에 필요한 방사선량을 집중시키는 정밀 방사선치료입니다.",
+      "insurance_explanation": "암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 항암세기조절방사선치료",
+      "frequency": "최초 1회",
+      "script_25_35s": "항암세기조절방사선치료특약입니다. 세기조절방사선치료는 방사선 조사면을 여러 영역으로 나누고 각 영역의 방사선 세기를 조절해 종양에 필요한 방사선량을 집중시키는 정밀 방사선치료입니다. 이 특약은 암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 항암세기조절방사선치료에 해당하는 경우를 보장합니다. 보장 횟수는 최초 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "삼성서울병원 방사선종양학과",
+        "url": "https://www.samsunghospital.com/dept/main/index.do?DP_CODE=RT&MENU_ID=004010",
+        "status": "verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "CANCER_PROTON",
+      "display_name": "항암양성자방사선치료특약",
+      "treatment_explanation": "양성자치료는 가속한 양성자 빔을 종양에 조사하는 방사선치료로, 양성자가 특정 깊이에서 에너지를 집중적으로 전달하는 특성을 이용합니다.",
+      "insurance_explanation": "암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 항암양성자방사선치료",
+      "frequency": "최초 1회",
+      "script_25_35s": "항암양성자방사선치료특약입니다. 양성자치료는 가속한 양성자 빔을 종양에 조사하는 방사선치료로, 양성자가 특정 깊이에서 에너지를 집중적으로 전달하는 특성을 이용합니다. 이 특약은 암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 항암양성자방사선치료에 해당하는 경우를 보장합니다. 보장 횟수는 최초 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "삼성서울병원 방사선종양학과",
+        "url": "https://www.samsunghospital.com/home/reservation/deptDetailInfo.do?DP_CODE=RT&TYPE=01",
+        "status": "verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "CANCER_STEREOTACTIC_RT",
+      "display_name": "항암정위적방사선치료특약",
+      "treatment_explanation": "정위적방사선치료는 3차원 좌표를 이용해 표적을 정확히 맞춘 뒤 여러 방향에서 고선량의 방사선을 집중적으로 조사하는 치료입니다.",
+      "insurance_explanation": "암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 항암정위적방사선치료",
+      "frequency": "최초 1회",
+      "script_25_35s": "항암정위적방사선치료특약입니다. 정위적방사선치료는 3차원 좌표를 이용해 표적을 정확히 맞춘 뒤 여러 방향에서 고선량의 방사선을 집중적으로 조사하는 치료입니다. 이 특약은 암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 항암정위적방사선치료에 해당하는 경우를 보장합니다. 보장 횟수는 최초 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "삼성서울병원 방사선종양학과",
+        "url": "https://www.samsunghospital.com/home/cancer/info.do?view=RADIATION_ONCOLOGY",
+        "status": "verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "CANCER_HEAVY_ION",
+      "display_name": "항암중입자방사선치료특약",
+      "treatment_explanation": "중입자치료는 탄소처럼 무거운 입자를 이용해 종양에 방사선을 전달하는 입자치료의 한 종류입니다.",
+      "insurance_explanation": "암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 항암중입자방사선치료",
+      "frequency": "최초 1회",
+      "script_25_35s": "항암중입자방사선치료특약입니다. 중입자치료는 탄소처럼 무거운 입자를 이용해 종양에 방사선을 전달하는 입자치료의 한 종류입니다. 이 특약은 암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 항암중입자방사선치료에 해당하는 경우를 보장합니다. 보장 횟수는 최초 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "국가암정보센터 방사선치료의 이해",
+        "url": "https://www.cancer.go.kr/lay1/S1T292C293/contents.do",
+        "status": "verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "CANCER_DAVINCI",
+      "display_name": "암다빈치로봇수술특약",
+      "treatment_explanation": "다빈치로봇수술은 의사가 로봇 수술 장비를 조작해 시행하는 로봇 보조 수술입니다.",
+      "insurance_explanation": "암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 다빈치로봇 수술",
+      "frequency": "최초 1회",
+      "script_25_35s": "암다빈치로봇수술특약입니다. 다빈치로봇수술은 의사가 로봇 수술 장비를 조작해 시행하는 로봇 보조 수술입니다. 이 특약은 암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 다빈치로봇 수술에 해당하는 경우를 보장합니다. 보장 횟수는 최초 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "서울아산병원 비급여 진료비 항목",
+        "url": "https://www.amc.seoul.kr/asan/footer/nonpay.do",
+        "status": "limited_verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "CANCER_DAVINCI_EX",
+      "display_name": "암다빈치로봇수술특약(갑상선암/전립선암제외)",
+      "treatment_explanation": "다빈치로봇수술은 의사가 로봇 수술 장비를 조작해 시행하는 로봇 보조 수술입니다.",
+      "insurance_explanation": "암보장개시일 이후 해당 암 또는 보장개시일 이후 기타피부암 진단확정 + 직접 치료 목적의 다빈치로봇 수술",
+      "frequency": "최초 1회",
+      "script_25_35s": "암다빈치로봇수술특약(갑상선암/전립선암제외)입니다. 다빈치로봇수술은 의사가 로봇 수술 장비를 조작해 시행하는 로봇 보조 수술입니다. 이 특약은 암보장개시일 이후 해당 암 또는 보장개시일 이후 기타피부암 진단확정 + 직접 치료 목적의 다빈치로봇 수술에 해당하는 경우를 보장합니다. 보장 횟수는 최초 1회이며, 실제 보험금 지급은 약관에서 정한 질병과 치료 범위, 지급조건을 충족해야 합니다.",
+      "medical_source": {
+        "title": "서울아산병원 비급여 진료비 항목",
+        "url": "https://www.amc.seoul.kr/asan/footer/nonpay.do",
+        "status": "limited_verified"
+      },
+      "state": "VIDEO_SCRIPT_FINAL"
+    },
+    {
+      "rider_id": "CIRC_TERTIARY",
+      "display_name": "상급종합병원(권역심뇌혈관질환센터포함)순환계질환주요치료특약",
+      "treatment_explanation": null,
+      "insurance_explanation": "순환계질환(뇌/심) 진단확정 + 상급종합병원(권역심뇌혈관질환센터 포함)에서 직접 치료 목적의 약관상 주요치료",
+      "frequency": "각 세부보장별 연간 1회",
+      "script_25_35s": null,
+      "medical_source": null,
+      "state": "BLOCKED_SOURCE_REVIEW"
+    },
+    {
+      "rider_id": "BRAIN_HEART_TERTIARY",
+      "display_name": "상급종합병원뇌심주요치료특약",
+      "treatment_explanation": null,
+      "insurance_explanation": "2대질환 진단확정 + 보험금 지급기간 내 직접 치료 목적으로 상급종합병원에서 약관상 2대질환주요치료",
+      "frequency": "최초 진단확정일부터 연간 1회, 최대 10년/10회",
+      "script_25_35s": null,
+      "medical_source": null,
+      "state": "BLOCKED_SOURCE_REVIEW"
+    },
+    {
+      "rider_id": "TARGETED_RADIATION",
+      "display_name": "특정표적방사선허가치료특약",
+      "treatment_explanation": null,
+      "insurance_explanation": "보장개시일(암은 암보장개시일) 이후 특정표적방사선허가치료 적응증 진단확정 + 직접 치료 목적의 약관상 특정표적방사선허가치료",
+      "frequency": "최초 1회",
+      "script_25_35s": null,
+      "medical_source": null,
+      "state": "BLOCKED_SOURCE_REVIEW"
+    }
+  ]
+}

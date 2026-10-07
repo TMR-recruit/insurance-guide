@@ -1,0 +1,208 @@
+{
+  "version": "v29",
+  "stage": "bulk insurance coverage extraction",
+  "source_policy": "교보마이플랜건강보험Ⅱ [D](무배당) 약관/상품요약서",
+  "rules": [
+    "의료설명과 보험 지급조건 분리",
+    "특정 포함 특약은 정의/별표 검증 필요",
+    "고객 목록에서 갱신/LH 미표시",
+    "검증되지 않은 범위는 생성 금지"
+  ],
+  "records": [
+    {
+      "id": "RIDER_BRAIN_THROMBECTOMY",
+      "display_name": "뇌경색증특정혈전제거수술특약",
+      "category": "뇌",
+      "trigger": "뇌경색증으로 진단확정 + 직접적인 치료 목적 + 약관상 급여 뇌경색증 혈전제거수술",
+      "benefits": [
+        "급여 뇌경색증 특정혈전제거수술보험금"
+      ],
+      "frequency": "최초 1회",
+      "specific_scope": {
+        "required": true,
+        "codes": [
+          "M6636",
+          "M6637",
+          "M6639"
+        ],
+        "status": "verified"
+      },
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "customer_draft_status": "insurance_source_verified"
+    },
+    {
+      "id": "RIDER_HEART_THROMBECTOMY",
+      "display_name": "급성심근경색증특정혈전제거수술특약",
+      "category": "심장",
+      "trigger": "급성심근경색증으로 진단확정 + 직접적인 치료 목적 + 약관상 급여 급성심근경색증 혈전제거수술",
+      "benefits": [
+        "급여 급성심근경색증 특정혈전제거수술보험금"
+      ],
+      "frequency": "최초 1회",
+      "specific_scope": {
+        "required": true,
+        "codes": [
+          "M6638",
+          "M6639",
+          "O0260",
+          "O1950"
+        ],
+        "status": "verified"
+      },
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "customer_draft_status": "insurance_source_verified"
+    },
+    {
+      "id": "RIDER_STENT",
+      "display_name": "특정스텐트삽입수술특약",
+      "category": "순환계",
+      "trigger": "약관에서 정한 급여 스텐트삽입수술",
+      "benefits": [
+        "관상동맥 스텐트삽입수술보험금(급여)",
+        "뇌혈관 스텐트삽입수술보험금(급여)",
+        "대동맥 스텐트삽입수술보험금(급여)"
+      ],
+      "frequency": "각 연간 1회",
+      "specific_scope": {
+        "required": true,
+        "appendices": [
+          "별표4",
+          "별표5",
+          "별표6"
+        ],
+        "status": "verified"
+      },
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "customer_draft_status": "insurance_source_verified"
+    },
+    {
+      "id": "RIDER_BRAIN_HEART_MAJOR",
+      "display_name": "뇌심주요치료특약",
+      "category": "뇌·심장",
+      "trigger": "2대질환 진단확정 + 보험금 지급기간 내 직접적인 치료 목적의 2대질환주요치료",
+      "benefits": [
+        "수술",
+        "혈전용해치료",
+        "중환자실치료"
+      ],
+      "frequency": "최초 진단확정일부터 연간 1회, 최대 10년/10회",
+      "specific_scope": {
+        "required": false,
+        "status": "verified"
+      },
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "customer_draft_status": "insurance_source_verified"
+    },
+    {
+      "id": "RIDER_CIRC_MAJOR",
+      "display_name": "순환계질환주요치료특약",
+      "category": "순환계",
+      "trigger": "약관상 순환계질환(뇌)/(심) 진단확정 + 직접적인 치료 목적",
+      "benefits": [
+        "뇌-수술(혈전용해·혈전제거 제외)",
+        "뇌-혈전제거수술",
+        "뇌-혈전용해치료",
+        "심-수술(혈전용해·혈전제거 제외)",
+        "심-혈전제거수술",
+        "심-혈전용해치료"
+      ],
+      "frequency": "각 세부보장별 연간 1회",
+      "specific_scope": {
+        "required": false,
+        "status": "verified"
+      },
+      "variants": [
+        "갱신형",
+        "L/LH 계열 무해약환급금형"
+      ],
+      "customer_draft_status": "insurance_source_verified"
+    },
+    {
+      "id": "RIDER_CEREBRAL_EMBOLIZATION",
+      "display_name": "특정뇌동맥질환혈관색전수술특약",
+      "category": "뇌",
+      "trigger": "특정뇌동맥질환 진단확정 + 직접 치료 목적 + 급여 혈관색전수술(동맥류)",
+      "benefits": [
+        "특정뇌동맥질환혈관색전수술보험금(급여)"
+      ],
+      "frequency": "연간 1회",
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "specific_scope_required": true
+    },
+    {
+      "id": "RIDER_STROKE_ICU",
+      "display_name": "급여뇌졸중집중치료실입원치료특약",
+      "category": "뇌",
+      "trigger": "약관상 급여 뇌졸중 집중치료실 치료",
+      "benefits": [
+        "급여 뇌졸중 집중치료실 입원치료보험금"
+      ],
+      "frequency": "연간 1회",
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "specific_scope_required": false
+    },
+    {
+      "id": "RIDER_CIRC_ORAL_1",
+      "display_name": "특정순환계질환경구약물치료특약",
+      "category": "순환계",
+      "trigger": "특정순환계질환 진단확정 + 직접 치료 목적 + 90일 이상 약관상 급여 경구약물치료",
+      "benefits": [
+        "급여 와파린 경구약물치료",
+        "급여 NOAC 경구약물치료"
+      ],
+      "frequency": "각 연간 1회",
+      "variants": [
+        "갱신형"
+      ],
+      "specific_scope_required": true
+    },
+    {
+      "id": "RIDER_CIRC_ORAL_2",
+      "display_name": "특정순환계질환Ⅱ경구약물치료특약",
+      "category": "순환계",
+      "trigger": "특정순환계질환Ⅱ 진단확정 + 직접 치료 목적 + 90일 이상 약관상 급여 경구약물치료",
+      "benefits": [
+        "급여 항혈소판제(아스피린) 경구약물치료",
+        "급여 항혈소판제(아스피린 이외) 경구약물치료"
+      ],
+      "frequency": "각 연간 1회",
+      "variants": [
+        "갱신형"
+      ],
+      "specific_scope_required": true
+    },
+    {
+      "id": "RIDER_CIRC_INJECTION",
+      "display_name": "특정순환계질환주사치료특약",
+      "category": "순환계",
+      "trigger": "특정순환계질환 진단확정 + 직접 치료 목적 + 약관상 급여 주사치료",
+      "benefits": [
+        "급여 항응고제 주사치료",
+        "급여 항혈소판제 주사치료"
+      ],
+      "frequency": "각 연간 1회",
+      "variants": [
+        "갱신형"
+      ],
+      "specific_scope_required": true
+    }
+  ]
+}

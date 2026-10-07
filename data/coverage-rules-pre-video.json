@@ -1,0 +1,421 @@
+{
+  "version": "pre-video",
+  "stage": "bulk insurance coverage extraction",
+  "source_policy": "교보마이플랜건강보험Ⅱ [D](무배당) 약관/상품요약서",
+  "rules": [
+    "의료설명과 보험 지급조건 분리",
+    "특정 포함 특약은 정의/별표 검증 필요",
+    "고객 목록에서 갱신/LH 미표시",
+    "검증되지 않은 범위는 생성 금지"
+  ],
+  "records": [
+    {
+      "id": "RIDER_BRAIN_THROMBECTOMY",
+      "display_name": "뇌경색증특정혈전제거수술특약",
+      "category": "뇌",
+      "trigger": "뇌경색증으로 진단확정 + 직접적인 치료 목적 + 약관상 급여 뇌경색증 혈전제거수술",
+      "benefits": [
+        "급여 뇌경색증 특정혈전제거수술보험금"
+      ],
+      "frequency": "최초 1회",
+      "specific_scope": {
+        "required": true,
+        "codes": [
+          "M6636",
+          "M6637",
+          "M6639"
+        ],
+        "status": "verified"
+      },
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "customer_draft_status": "insurance_source_verified",
+      "detail_file": "detail-rider_brain_thrombectomy.html"
+    },
+    {
+      "id": "RIDER_HEART_THROMBECTOMY",
+      "display_name": "급성심근경색증특정혈전제거수술특약",
+      "category": "심장",
+      "trigger": "급성심근경색증으로 진단확정 + 직접적인 치료 목적 + 약관상 급여 급성심근경색증 혈전제거수술",
+      "benefits": [
+        "급여 급성심근경색증 특정혈전제거수술보험금"
+      ],
+      "frequency": "최초 1회",
+      "specific_scope": {
+        "required": true,
+        "codes": [
+          "M6638",
+          "M6639",
+          "O0260",
+          "O1950"
+        ],
+        "status": "verified"
+      },
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "customer_draft_status": "insurance_source_verified",
+      "detail_file": "detail-rider_heart_thrombectomy.html"
+    },
+    {
+      "id": "RIDER_STENT",
+      "display_name": "특정스텐트삽입수술특약",
+      "category": "순환계",
+      "trigger": "약관에서 정한 급여 스텐트삽입수술",
+      "benefits": [
+        "관상동맥 스텐트삽입수술보험금(급여)",
+        "뇌혈관 스텐트삽입수술보험금(급여)",
+        "대동맥 스텐트삽입수술보험금(급여)"
+      ],
+      "frequency": "각 연간 1회",
+      "specific_scope": {
+        "required": true,
+        "appendices": [
+          "별표4",
+          "별표5",
+          "별표6"
+        ],
+        "status": "verified"
+      },
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "customer_draft_status": "insurance_source_verified",
+      "detail_file": "detail-rider_stent.html"
+    },
+    {
+      "id": "RIDER_BRAIN_HEART_MAJOR",
+      "display_name": "뇌심주요치료특약",
+      "category": "뇌·심장",
+      "trigger": "2대질환 진단확정 + 보험금 지급기간 내 직접적인 치료 목적의 2대질환주요치료",
+      "benefits": [
+        "수술",
+        "혈전용해치료",
+        "중환자실치료"
+      ],
+      "frequency": "최초 진단확정일부터 연간 1회, 최대 10년/10회",
+      "specific_scope": {
+        "required": false,
+        "status": "verified"
+      },
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "customer_draft_status": "insurance_source_verified",
+      "detail_file": "detail-rider_brain_heart_major.html"
+    },
+    {
+      "id": "RIDER_CIRC_MAJOR",
+      "display_name": "순환계질환주요치료특약",
+      "category": "순환계",
+      "trigger": "약관상 순환계질환(뇌)/(심) 진단확정 + 직접적인 치료 목적",
+      "benefits": [
+        "뇌-수술(혈전용해·혈전제거 제외)",
+        "뇌-혈전제거수술",
+        "뇌-혈전용해치료",
+        "심-수술(혈전용해·혈전제거 제외)",
+        "심-혈전제거수술",
+        "심-혈전용해치료"
+      ],
+      "frequency": "각 세부보장별 연간 1회",
+      "specific_scope": {
+        "required": false,
+        "status": "verified"
+      },
+      "variants": [
+        "갱신형",
+        "L/LH 계열 무해약환급금형"
+      ],
+      "customer_draft_status": "insurance_source_verified",
+      "detail_file": "detail-rider_circ_major.html"
+    },
+    {
+      "id": "RIDER_CEREBRAL_EMBOLIZATION",
+      "display_name": "특정뇌동맥질환혈관색전수술특약",
+      "category": "뇌",
+      "trigger": "특정뇌동맥질환 진단확정 + 직접 치료 목적 + 급여 혈관색전수술(동맥류)",
+      "benefits": [
+        "특정뇌동맥질환혈관색전수술보험금(급여)"
+      ],
+      "frequency": "연간 1회",
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "specific_scope_required": true,
+      "detail_file": "detail-rider_cerebral_embolization.html"
+    },
+    {
+      "id": "RIDER_STROKE_ICU",
+      "display_name": "급여뇌졸중집중치료실입원치료특약",
+      "category": "뇌",
+      "trigger": "약관상 급여 뇌졸중 집중치료실 치료",
+      "benefits": [
+        "급여 뇌졸중 집중치료실 입원치료보험금"
+      ],
+      "frequency": "연간 1회",
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "specific_scope_required": false,
+      "detail_file": "detail-rider_stroke_icu.html"
+    },
+    {
+      "id": "RIDER_CIRC_ORAL_1",
+      "display_name": "특정순환계질환경구약물치료특약",
+      "category": "순환계",
+      "trigger": "특정순환계질환 진단확정 + 직접 치료 목적 + 90일 이상 약관상 급여 경구약물치료",
+      "benefits": [
+        "급여 와파린 경구약물치료",
+        "급여 NOAC 경구약물치료"
+      ],
+      "frequency": "각 연간 1회",
+      "variants": [
+        "갱신형"
+      ],
+      "specific_scope_required": true,
+      "detail_file": "detail-rider_circ_oral_1.html"
+    },
+    {
+      "id": "RIDER_CIRC_ORAL_2",
+      "display_name": "특정순환계질환Ⅱ경구약물치료특약",
+      "category": "순환계",
+      "trigger": "특정순환계질환Ⅱ 진단확정 + 직접 치료 목적 + 90일 이상 약관상 급여 경구약물치료",
+      "benefits": [
+        "급여 항혈소판제(아스피린) 경구약물치료",
+        "급여 항혈소판제(아스피린 이외) 경구약물치료"
+      ],
+      "frequency": "각 연간 1회",
+      "variants": [
+        "갱신형"
+      ],
+      "specific_scope_required": true,
+      "detail_file": "detail-rider_circ_oral_2.html"
+    },
+    {
+      "id": "RIDER_CIRC_INJECTION",
+      "display_name": "특정순환계질환주사치료특약",
+      "category": "순환계",
+      "trigger": "특정순환계질환 진단확정 + 직접 치료 목적 + 약관상 급여 주사치료",
+      "benefits": [
+        "급여 항응고제 주사치료",
+        "급여 항혈소판제 주사치료"
+      ],
+      "frequency": "각 연간 1회",
+      "variants": [
+        "갱신형"
+      ],
+      "specific_scope_required": true,
+      "detail_file": "detail-rider_circ_injection.html"
+    },
+    {
+      "id": "CANCER_MAJOR",
+      "display_name": "암주요치료특약",
+      "category": "암",
+      "trigger": "암 또는 기타피부암·갑상선암의 해당 보장형에서 진단확정 후 보험금 지급기간 내 직접 치료 목적으로 약관상 암주요치료",
+      "benefits": [
+        "암수술",
+        "항암방사선치료",
+        "항암약물치료"
+      ],
+      "frequency": "최초 진단확정일부터 연간 1회, 최대 10년/10회",
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "source_status": "verified",
+      "detail_file": "detail-cancer_major.html"
+    },
+    {
+      "id": "CANCER_MAJOR_TERTIARY",
+      "display_name": "상급종합병원암주요치료특약",
+      "category": "암",
+      "trigger": "해당 암 진단확정 후 보험금 지급기간 내 직접 치료 목적으로 상급종합병원에서 약관상 암주요치료",
+      "benefits": [
+        "상급종합병원에서의 암주요치료"
+      ],
+      "frequency": "최초 진단확정일부터 연간 1회, 최대 10년/10회",
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "source_status": "verified",
+      "detail_file": "detail-cancer_major_tertiary.html"
+    },
+    {
+      "id": "CANCER_NONCOVERED_MAJOR",
+      "display_name": "비급여암주요치료특약",
+      "category": "암",
+      "trigger": "암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 최초 진단확정 + 지급기간 내 직접 치료 목적의 급여전액본인부담(비급여포함) 암주요치료",
+      "benefits": [
+        "급여전액본인부담(비급여포함) 암주요치료"
+      ],
+      "frequency": "최초 진단확정일부터 연간 1회, 최대 10년/10회",
+      "variants": [
+        "갱신형",
+        "LH 계열"
+      ],
+      "source_status": "verified",
+      "detail_file": "detail-cancer_noncovered_major.html"
+    },
+    {
+      "id": "CANCER_NONCOVERED_DRUG",
+      "display_name": "비급여항암약물치료특약",
+      "category": "암",
+      "trigger": "암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 최초 진단확정 + 지급기간 내 직접 치료 목적의 급여전액본인부담(비급여포함) 항암약물치료",
+      "benefits": [
+        "급여전액본인부담(비급여포함) 항암약물치료"
+      ],
+      "frequency": "최초 진단확정일부터 연간 1회, 최대 10년/10회",
+      "variants": [
+        "갱신형",
+        "LH 계열"
+      ],
+      "source_status": "verified",
+      "detail_file": "detail-cancer_noncovered_drug.html"
+    },
+    {
+      "id": "CANCER_IMRT",
+      "display_name": "항암세기조절방사선치료특약",
+      "category": "암",
+      "trigger": "암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 항암세기조절방사선치료",
+      "benefits": [
+        "항암세기조절방사선치료보험금"
+      ],
+      "frequency": "최초 1회",
+      "variants": [
+        "갱신형"
+      ],
+      "source_status": "verified",
+      "detail_file": "detail-cancer_imrt.html"
+    },
+    {
+      "id": "CANCER_PROTON",
+      "display_name": "항암양성자방사선치료특약",
+      "category": "암",
+      "trigger": "암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 항암양성자방사선치료",
+      "benefits": [
+        "항암양성자방사선치료보험금"
+      ],
+      "frequency": "최초 1회",
+      "variants": [
+        "갱신형"
+      ],
+      "source_status": "verified",
+      "detail_file": "detail-cancer_proton.html"
+    },
+    {
+      "id": "CANCER_STEREOTACTIC_RT",
+      "display_name": "항암정위적방사선치료특약",
+      "category": "암",
+      "trigger": "암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 항암정위적방사선치료",
+      "benefits": [
+        "항암정위적방사선치료보험금"
+      ],
+      "frequency": "최초 1회",
+      "variants": [
+        "갱신형"
+      ],
+      "source_status": "verified",
+      "detail_file": "detail-cancer_stereotactic_rt.html"
+    },
+    {
+      "id": "CANCER_HEAVY_ION",
+      "display_name": "항암중입자방사선치료특약",
+      "category": "암",
+      "trigger": "암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 항암중입자방사선치료",
+      "benefits": [
+        "항암중입자방사선치료보험금"
+      ],
+      "frequency": "최초 1회",
+      "variants": [
+        "갱신형",
+        "LH"
+      ],
+      "source_status": "verified",
+      "detail_file": "detail-cancer_heavy_ion.html"
+    },
+    {
+      "id": "CANCER_DAVINCI",
+      "display_name": "암다빈치로봇수술특약",
+      "category": "암",
+      "trigger": "암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 진단확정 + 직접 치료 목적의 다빈치로봇 수술",
+      "benefits": [
+        "암다빈치로봇수술보험금"
+      ],
+      "frequency": "최초 1회",
+      "variants": [
+        "갱신형 2형"
+      ],
+      "source_status": "verified",
+      "detail_file": "detail-cancer_davinci.html"
+    },
+    {
+      "id": "CANCER_DAVINCI_EX",
+      "display_name": "암다빈치로봇수술특약(갑상선암/전립선암제외)",
+      "category": "암",
+      "trigger": "암보장개시일 이후 해당 암 또는 보장개시일 이후 기타피부암 진단확정 + 직접 치료 목적의 다빈치로봇 수술",
+      "benefits": [
+        "암다빈치로봇수술보험금(갑상선암/전립선암제외)"
+      ],
+      "frequency": "최초 1회",
+      "variants": [
+        "갱신형 2형"
+      ],
+      "source_status": "verified",
+      "detail_file": "detail-cancer_davinci_ex.html"
+    },
+    {
+      "id": "CIRC_TERTIARY",
+      "display_name": "상급종합병원(권역심뇌혈관질환센터포함)순환계질환주요치료특약",
+      "category": "순환계",
+      "trigger": "순환계질환(뇌/심) 진단확정 + 상급종합병원(권역심뇌혈관질환센터 포함)에서 직접 치료 목적의 약관상 주요치료",
+      "benefits": [
+        "뇌: 수술(혈전용해·혈전제거 제외), 혈전제거, 혈전용해",
+        "심: 수술(혈전용해·혈전제거 제외), 혈전제거, 혈전용해"
+      ],
+      "frequency": "각 세부보장별 연간 1회",
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "source_status": "verified"
+    },
+    {
+      "id": "BRAIN_HEART_TERTIARY",
+      "display_name": "상급종합병원뇌심주요치료특약",
+      "category": "뇌·심장",
+      "trigger": "2대질환 진단확정 + 보험금 지급기간 내 직접 치료 목적으로 상급종합병원에서 약관상 2대질환주요치료",
+      "benefits": [
+        "상급종합병원 2대질환주요치료"
+      ],
+      "frequency": "최초 진단확정일부터 연간 1회, 최대 10년/10회",
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "source_status": "verified"
+    },
+    {
+      "id": "TARGETED_RADIATION",
+      "display_name": "특정표적방사선허가치료특약",
+      "category": "암",
+      "trigger": "보장개시일(암은 암보장개시일) 이후 특정표적방사선허가치료 적응증 진단확정 + 직접 치료 목적의 약관상 특정표적방사선허가치료",
+      "benefits": [
+        "특정표적방사선허가치료보험금"
+      ],
+      "frequency": "최초 1회",
+      "variants": [
+        "갱신형"
+      ],
+      "specific_scope_required": true,
+      "source_status": "verified"
+    }
+  ]
+}

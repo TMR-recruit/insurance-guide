@@ -1,0 +1,24 @@
+{
+  "version": "v11",
+  "changes": [
+    {
+      "display_group": "암주요치료특약",
+      "customer_cards": 1,
+      "underlying_variants": 4,
+      "axes": [
+        "보장대상: 암(기타피부암·갑상선암 제외) / 기타피부암·갑상선암",
+        "가입형태: 갱신형 / LH형"
+      ],
+      "source": "상품요약서 117~120 계열"
+    },
+    {
+      "display_group": "급성심근경색증특정혈전제거수술특약",
+      "customer_cards": 1,
+      "underlying_variants": 2,
+      "axes": [
+        "가입형태: 갱신형 / LH형"
+      ],
+      "source": "상품요약서 43~44"
+    }
+  ]
+}

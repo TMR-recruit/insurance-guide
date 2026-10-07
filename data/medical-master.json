@@ -1,0 +1,115 @@
+[
+  {
+    "medical_id": "MED_001",
+    "name": "뇌경색",
+    "category": "뇌",
+    "easy": "뇌경색은 뇌혈관이 막혀 뇌 조직으로 가는 혈류가 줄어들면서 뇌세포가 손상되는 질환입니다.",
+    "sources": [
+      {
+        "name": "질병관리청 국가건강정보포털",
+        "role": "질환 설명",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5495"
+      }
+    ],
+    "status": "web_verified"
+  },
+  {
+    "medical_id": "MED_002",
+    "name": "혈전제거술",
+    "category": "뇌·순환계",
+    "easy": "큰 뇌혈관이 혈전으로 막힌 일부 환자에서는 혈관 안으로 카테터를 넣어 막고 있는 혈전을 직접 제거해 혈류를 다시 확보하는 치료를 시행할 수 있습니다.",
+    "sources": [
+      {
+        "name": "질병관리청 국가건강정보포털",
+        "role": "환자용 치료 설명",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5495"
+      },
+      {
+        "name": "교보생명 보험약관",
+        "role": "보험상 급여 혈전제거수술 정의·코드",
+        "detail": "M6636, M6637, M6639"
+      }
+    ],
+    "status": "medical_and_policy_verified"
+  },
+  {
+    "medical_id": "MED_003",
+    "name": "혈전용해치료",
+    "category": "뇌·심장·순환계",
+    "easy": "혈전용해치료는 혈관을 막은 혈전을 약물로 녹여 막힌 혈관의 혈류를 다시 열기 위해 시행하는 치료입니다.",
+    "sources": [
+      {
+        "name": "질병관리청 국가건강정보포털",
+        "role": "뇌졸중 치료 설명",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5495"
+      },
+      {
+        "name": "서울아산병원 뇌졸중센터",
+        "role": "교차 확인",
+        "url": "https://www.amc.seoul.kr/asan/depts/stroke/K/content.do?menuId=2309"
+      }
+    ],
+    "status": "web_verified"
+  },
+  {
+    "medical_id": "MED_004",
+    "name": "암주요치료",
+    "category": "암",
+    "easy": "이 약관에서 암주요치료는 암수술, 항암방사선치료, 항암약물치료를 묶어 부르는 보험상 정의입니다.",
+    "sources": [
+      {
+        "name": "교보생명 보험약관",
+        "role": "보험상 정의",
+        "detail": "제6조 암주요치료의 정의"
+      },
+      {
+        "name": "질병관리청 국가건강정보포털",
+        "role": "방사선치료 일반 의료정보",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6564"
+      }
+    ],
+    "status": "policy_verified"
+  },
+  {
+    "medical_id": "MED_005",
+    "name": "암수술",
+    "category": "암",
+    "easy": "암의 직접적인 치료를 위해 약관에서 정한 의료인의 관리 아래 기구를 사용해 절단·절제 등의 조작을 하는 수술입니다.",
+    "sources": [
+      {
+        "name": "교보생명 보험약관",
+        "role": "보험상 암수술 정의",
+        "detail": "암주요치료특약 제4조"
+      }
+    ],
+    "status": "policy_verified_patient_source_pending"
+  },
+  {
+    "medical_id": "MED_006",
+    "name": "항암방사선치료",
+    "category": "암",
+    "easy": "방사선종양학과 전문의가 고에너지 전리 방사선을 조사해 암세포를 치료하는 방법입니다.",
+    "sources": [
+      {
+        "name": "교보생명 보험약관",
+        "role": "보험상 항암방사선치료 정의",
+        "detail": "암주요치료특약 제5조"
+      }
+    ],
+    "status": "policy_verified_patient_source_pending"
+  },
+  {
+    "medical_id": "MED_007",
+    "name": "항암약물치료",
+    "category": "암",
+    "easy": "해당 진료과 전문의가 항암화학요법 또는 항암면역요법을 통해 항암약물을 투여하여 치료하는 방법입니다.",
+    "sources": [
+      {
+        "name": "교보생명 보험약관",
+        "role": "보험상 항암약물치료 정의",
+        "detail": "암주요치료특약 제5조"
+      }
+    ],
+    "status": "policy_verified_patient_source_pending"
+  }
+]

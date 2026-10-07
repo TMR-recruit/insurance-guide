@@ -1,0 +1,36 @@
+{
+  "version": "v33",
+  "prototype_rider_id": "RIDER_STENT",
+  "prototype_name": "특정스텐트삽입수술특약",
+  "format": {
+    "duration_target_sec": "20-30",
+    "aspect_ratio": "16:9",
+    "captions": true,
+    "presenter": "professional Korean announcer/avatar"
+  },
+  "script": "특정스텐트삽입수술특약, 이름이 조금 어렵죠? 쉽게 설명해드릴게요. 스텐트 삽입술은 좁아지거나 막힌 혈관 부위를 넓혀 혈류가 지나갈 통로를 확보하는 데 사용되는 혈관 중재 치료입니다. 이 특약은 약관에서 정한 급여 스텐트삽입수술에 해당하는 경우를 보장합니다. 다만 실제 보험금 지급은 약관에서 정한 질병과 치료, 횟수 등 지급조건을 충족해야 합니다.",
+  "scene_plan": [
+    {
+      "time": "0-4s",
+      "visual": "특약명 + 아나운서",
+      "caption": "특정스텐트삽입수술특약"
+    },
+    {
+      "time": "4-11s",
+      "visual": "혈관과 스텐트의 간단한 의료 그래픽",
+      "caption": "혈관의 통로를 확보하는 스텐트 치료"
+    },
+    {
+      "time": "11-20s",
+      "visual": "관상동맥 · 뇌혈관 · 대동맥 3개 항목",
+      "caption": "약관에서 정한 급여 스텐트삽입수술"
+    },
+    {
+      "time": "20-27s",
+      "visual": "약관 확인 아이콘 + 아나운서",
+      "caption": "실제 지급은 약관의 지급조건을 충족해야 합니다"
+    }
+  ],
+  "status": "video_generation_provider_pending",
+  "note": "현재 환경에는 외부 AI 아바타/영상 렌더러가 연결되어 있지 않아 실제 mp4 대신 즉시 렌더링 가능한 영상 패키지까지 생성."
+}

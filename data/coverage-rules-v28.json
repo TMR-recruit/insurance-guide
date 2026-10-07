@@ -1,0 +1,128 @@
+{
+  "version": "v28",
+  "stage": "insurance coverage extraction pilot",
+  "source_policy": "교보마이플랜건강보험Ⅱ [D](무배당) 약관",
+  "rule": "의료 설명과 보험 지급조건 분리. 이 파일은 보험 약관에서 확인된 구조만 저장.",
+  "records": [
+    {
+      "id": "RIDER_BRAIN_THROMBECTOMY",
+      "display_name": "뇌경색증특정혈전제거수술특약",
+      "category": "뇌",
+      "trigger": "뇌경색증으로 진단확정 + 직접적인 치료 목적 + 약관상 급여 뇌경색증 혈전제거수술",
+      "benefits": [
+        "급여 뇌경색증 특정혈전제거수술보험금"
+      ],
+      "frequency": "최초 1회",
+      "specific_scope": {
+        "required": true,
+        "codes": [
+          "M6636",
+          "M6637",
+          "M6639"
+        ],
+        "status": "verified"
+      },
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "customer_draft_status": "insurance_source_verified"
+    },
+    {
+      "id": "RIDER_HEART_THROMBECTOMY",
+      "display_name": "급성심근경색증특정혈전제거수술특약",
+      "category": "심장",
+      "trigger": "급성심근경색증으로 진단확정 + 직접적인 치료 목적 + 약관상 급여 급성심근경색증 혈전제거수술",
+      "benefits": [
+        "급여 급성심근경색증 특정혈전제거수술보험금"
+      ],
+      "frequency": "최초 1회",
+      "specific_scope": {
+        "required": true,
+        "codes": [
+          "M6638",
+          "M6639",
+          "O0260",
+          "O1950"
+        ],
+        "status": "verified"
+      },
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "customer_draft_status": "insurance_source_verified"
+    },
+    {
+      "id": "RIDER_STENT",
+      "display_name": "특정스텐트삽입수술특약",
+      "category": "순환계",
+      "trigger": "약관에서 정한 급여 스텐트삽입수술",
+      "benefits": [
+        "관상동맥 스텐트삽입수술보험금(급여)",
+        "뇌혈관 스텐트삽입수술보험금(급여)",
+        "대동맥 스텐트삽입수술보험금(급여)"
+      ],
+      "frequency": "각 연간 1회",
+      "specific_scope": {
+        "required": true,
+        "appendices": [
+          "별표4",
+          "별표5",
+          "별표6"
+        ],
+        "status": "verified"
+      },
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "customer_draft_status": "insurance_source_verified"
+    },
+    {
+      "id": "RIDER_BRAIN_HEART_MAJOR",
+      "display_name": "뇌심주요치료특약",
+      "category": "뇌·심장",
+      "trigger": "2대질환 진단확정 + 보험금 지급기간 내 직접적인 치료 목적의 2대질환주요치료",
+      "benefits": [
+        "수술",
+        "혈전용해치료",
+        "중환자실치료"
+      ],
+      "frequency": "최초 진단확정일부터 연간 1회, 최대 10년/10회",
+      "specific_scope": {
+        "required": false,
+        "status": "verified"
+      },
+      "variants": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ],
+      "customer_draft_status": "insurance_source_verified"
+    },
+    {
+      "id": "RIDER_CIRC_MAJOR",
+      "display_name": "순환계질환주요치료특약",
+      "category": "순환계",
+      "trigger": "약관상 순환계질환(뇌)/(심) 진단확정 + 직접적인 치료 목적",
+      "benefits": [
+        "뇌-수술(혈전용해·혈전제거 제외)",
+        "뇌-혈전제거수술",
+        "뇌-혈전용해치료",
+        "심-수술(혈전용해·혈전제거 제외)",
+        "심-혈전제거수술",
+        "심-혈전용해치료"
+      ],
+      "frequency": "각 세부보장별 연간 1회",
+      "specific_scope": {
+        "required": false,
+        "status": "verified"
+      },
+      "variants": [
+        "갱신형",
+        "L/LH 계열 무해약환급금형"
+      ],
+      "customer_draft_status": "insurance_source_verified"
+    }
+  ]
+}

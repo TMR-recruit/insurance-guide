@@ -1,0 +1,14 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>보장구조 일괄 추출</title>
+<style>body{font-family:Arial,'Noto Sans KR',sans-serif;margin:28px;color:#172033}.head{background:#eef5ff;padding:16px;border-radius:12px;line-height:1.65}table{width:100%;border-collapse:collapse;margin-top:18px;font-size:12px}th,td{padding:10px;border-bottom:1px solid #e5e9ef;text-align:left;vertical-align:top;line-height:1.5}th{background:#f4f7fb}</style></head><body>
+<h1>전체 특약 자동화 — 보장구조 추출 진행본</h1>
+<div class="head">수작업 상세페이지 제작은 중단하고 약관 데이터를 일괄 구조화하는 단계입니다. 현재 검증된 치료특약 10개를 동일 스키마에 넣었습니다. 의료정보는 이 데이터와 섞지 않고 다음 단계에서 별도 출처로 연결합니다.</div>
+<table><thead><tr><th>분류</th><th>특약</th><th>약관 지급 트리거</th><th>보장 구성</th><th>횟수</th></tr></thead><tbody><tr><td>뇌</td><td><b>뇌경색증특정혈전제거수술특약</b></td><td>뇌경색증으로 진단확정 + 직접적인 치료 목적 + 약관상 급여 뇌경색증 혈전제거수술</td><td>급여 뇌경색증 특정혈전제거수술보험금</td><td>최초 1회</td></tr>
+<tr><td>심장</td><td><b>급성심근경색증특정혈전제거수술특약</b></td><td>급성심근경색증으로 진단확정 + 직접적인 치료 목적 + 약관상 급여 급성심근경색증 혈전제거수술</td><td>급여 급성심근경색증 특정혈전제거수술보험금</td><td>최초 1회</td></tr>
+<tr><td>순환계</td><td><b>특정스텐트삽입수술특약</b></td><td>약관에서 정한 급여 스텐트삽입수술</td><td>관상동맥 스텐트삽입수술보험금(급여)<br>뇌혈관 스텐트삽입수술보험금(급여)<br>대동맥 스텐트삽입수술보험금(급여)</td><td>각 연간 1회</td></tr>
+<tr><td>뇌·심장</td><td><b>뇌심주요치료특약</b></td><td>2대질환 진단확정 + 보험금 지급기간 내 직접적인 치료 목적의 2대질환주요치료</td><td>수술<br>혈전용해치료<br>중환자실치료</td><td>최초 진단확정일부터 연간 1회, 최대 10년/10회</td></tr>
+<tr><td>순환계</td><td><b>순환계질환주요치료특약</b></td><td>약관상 순환계질환(뇌)/(심) 진단확정 + 직접적인 치료 목적</td><td>뇌-수술(혈전용해·혈전제거 제외)<br>뇌-혈전제거수술<br>뇌-혈전용해치료<br>심-수술(혈전용해·혈전제거 제외)<br>심-혈전제거수술<br>심-혈전용해치료</td><td>각 세부보장별 연간 1회</td></tr>
+<tr><td>뇌</td><td><b>특정뇌동맥질환혈관색전수술특약</b></td><td>특정뇌동맥질환 진단확정 + 직접 치료 목적 + 급여 혈관색전수술(동맥류)</td><td>특정뇌동맥질환혈관색전수술보험금(급여)</td><td>연간 1회</td></tr>
+<tr><td>뇌</td><td><b>급여뇌졸중집중치료실입원치료특약</b></td><td>약관상 급여 뇌졸중 집중치료실 치료</td><td>급여 뇌졸중 집중치료실 입원치료보험금</td><td>연간 1회</td></tr>
+<tr><td>순환계</td><td><b>특정순환계질환경구약물치료특약</b></td><td>특정순환계질환 진단확정 + 직접 치료 목적 + 90일 이상 약관상 급여 경구약물치료</td><td>급여 와파린 경구약물치료<br>급여 NOAC 경구약물치료</td><td>각 연간 1회</td></tr>
+<tr><td>순환계</td><td><b>특정순환계질환Ⅱ경구약물치료특약</b></td><td>특정순환계질환Ⅱ 진단확정 + 직접 치료 목적 + 90일 이상 약관상 급여 경구약물치료</td><td>급여 항혈소판제(아스피린) 경구약물치료<br>급여 항혈소판제(아스피린 이외) 경구약물치료</td><td>각 연간 1회</td></tr>
+<tr><td>순환계</td><td><b>특정순환계질환주사치료특약</b></td><td>특정순환계질환 진단확정 + 직접 치료 목적 + 약관상 급여 주사치료</td><td>급여 항응고제 주사치료<br>급여 항혈소판제 주사치료</td><td>각 연간 1회</td></tr></tbody></table></body></html>

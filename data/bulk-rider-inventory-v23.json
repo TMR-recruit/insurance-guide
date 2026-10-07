@@ -1,0 +1,341 @@
+{
+  "version": "v23",
+  "purpose": "전체 특약 일괄 분석 파이프라인의 1차 인벤토리/그룹 후보",
+  "important": "상품요약서 검색으로 확인된 항목만 수록. 전체 상품의 완전한 특약 목록이라고 아직 단정하지 않음.",
+  "rules": {
+    "customer_title": "정식 특약명을 우선 표시하고 갱신형/LH 등 계약형태는 상세에서 분리",
+    "specific": "‘특정’ 포함 시 정의조항·별표·분류표 연결 전 고객 설명 승인 금지",
+    "merge": "이름만으로 병합 금지. coverage signature 검증 후 DISPLAY_GROUP 승인",
+    "runtime": "검증·승인된 사전 생성 설명만 고객에게 노출"
+  },
+  "inventory": [
+    {
+      "inventory_id": "INV_001",
+      "official_rider_name": "3대특정생활습관병입원수술특약(갱신형)Ⅱ",
+      "display_group_candidate": "3대특정생활습관병입원수술특약Ⅱ",
+      "coverage_type": "treatment",
+      "specific_scope_required": true,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_002",
+      "official_rider_name": "4대중증생활습관병심장수술특약(갱신형)",
+      "display_group_candidate": "4대중증생활습관병심장수술특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_003",
+      "official_rider_name": "6대난치성질병진단특약",
+      "display_group_candidate": "6대난치성질병진단특약",
+      "coverage_type": "diagnosis_or_other",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_004",
+      "official_rider_name": "9대중증생활습관병수술특약 LH(무해약환급금형)",
+      "display_group_candidate": "9대중증생활습관병수술특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_005",
+      "official_rider_name": "갑상선기능항진증치료특약(갱신형)",
+      "display_group_candidate": "갑상선기능항진증치료특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_006",
+      "official_rider_name": "갑상선암수술후호르몬약물허가치료특약(갱신형)",
+      "display_group_candidate": "갑상선암수술후호르몬약물허가치료특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_007",
+      "official_rider_name": "고혈압(원발성)약물치료특약(갱신형)",
+      "display_group_candidate": "고혈압(원발성)약물치료특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_008",
+      "official_rider_name": "고혈압(원발성)약물치료특약 LH(무해약환급금형)",
+      "display_group_candidate": "고혈압(원발성)약물치료특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_009",
+      "official_rider_name": "급성심근경색증특정혈전제거수술특약(갱신형)",
+      "display_group_candidate": "급성심근경색증특정혈전제거수술특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": true,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_010",
+      "official_rider_name": "급성심근경색증특정혈전제거수술특약 LH(무해약환급금형)",
+      "display_group_candidate": "급성심근경색증특정혈전제거수술특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": true,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_011",
+      "official_rider_name": "급여뇌졸중집중치료실입원치료특약(연간1회한)(갱신형)",
+      "display_group_candidate": "급여뇌졸중집중치료실입원치료특약(연간1회한)",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_012",
+      "official_rider_name": "급여뇌졸중집중치료실입원치료특약 LH(연간1회한)(무해약환급금형)",
+      "display_group_candidate": "급여뇌졸중집중치료실입원치료특약(무해약환급금형)",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_013",
+      "official_rider_name": "뇌경색증특정혈전제거수술특약(갱신형)",
+      "display_group_candidate": "뇌경색증특정혈전제거수술특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": true,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_014",
+      "official_rider_name": "뇌경색증특정혈전제거수술특약 LH(무해약환급금형)",
+      "display_group_candidate": "뇌경색증특정혈전제거수술특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": true,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_015",
+      "official_rider_name": "뇌심주요치료특약(연간1회한,최대10회)(갱신형)",
+      "display_group_candidate": "뇌심주요치료특약(연간1회한,최대10회)",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_016",
+      "official_rider_name": "뇌심주요치료특약 LH(연간1회한,최대10회)(무해약환급금형)",
+      "display_group_candidate": "뇌심주요치료특약(무해약환급금형)",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_017",
+      "official_rider_name": "뇌정위적방사선수술특약(갱신형)",
+      "display_group_candidate": "뇌정위적방사선수술특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_018",
+      "official_rider_name": "뇌혈관질환수술보장특약(갱신형)",
+      "display_group_candidate": "뇌혈관질환수술보장특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_019",
+      "official_rider_name": "뇌혈관질환수술보장특약 LH(무해약환급금형)",
+      "display_group_candidate": "뇌혈관질환수술보장특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_020",
+      "official_rider_name": "순환계질환주요치료특약(각연간1회한)(갱신형)",
+      "display_group_candidate": "순환계질환주요치료특약(각연간1회한)",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_021",
+      "official_rider_name": "순환계질환주요치료특약 LH(각연간1회한)(무해약환급금형)",
+      "display_group_candidate": "순환계질환주요치료특약(무해약환급금형)",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_022",
+      "official_rider_name": "심장부정맥고주파·냉각절제수술특약(갱신형)",
+      "display_group_candidate": "심장부정맥고주파·냉각절제수술특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_023",
+      "official_rider_name": "심장질환수술보장특약(갱신형)",
+      "display_group_candidate": "심장질환수술보장특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_024",
+      "official_rider_name": "심장질환수술보장특약 LH(무해약환급금형)",
+      "display_group_candidate": "심장질환수술보장특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_025",
+      "official_rider_name": "특정뇌동맥질환혈관색전수술특약(갱신형)",
+      "display_group_candidate": "특정뇌동맥질환혈관색전수술특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": true,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_026",
+      "official_rider_name": "특정뇌동맥질환혈관색전수술특약 LH(무해약환급금형)",
+      "display_group_candidate": "특정뇌동맥질환혈관색전수술특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": true,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_027",
+      "official_rider_name": "특정순환계질환경구약물치료특약(연간1회한)(갱신형)",
+      "display_group_candidate": "특정순환계질환경구약물치료특약(연간1회한)",
+      "coverage_type": "treatment",
+      "specific_scope_required": true,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_028",
+      "official_rider_name": "특정순환계질환Ⅱ경구약물치료특약(연간1회한)(갱신형)",
+      "display_group_candidate": "특정순환계질환Ⅱ경구약물치료특약(연간1회한)",
+      "coverage_type": "treatment",
+      "specific_scope_required": true,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_029",
+      "official_rider_name": "특정순환계질환주사치료특약(연간1회한)(갱신형)",
+      "display_group_candidate": "특정순환계질환주사치료특약(연간1회한)",
+      "coverage_type": "treatment",
+      "specific_scope_required": true,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_030",
+      "official_rider_name": "특정스텐트삽입수술특약(갱신형)",
+      "display_group_candidate": "특정스텐트삽입수술특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": true,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_031",
+      "official_rider_name": "특정스텐트삽입수술특약 LH(무해약환급금형)",
+      "display_group_candidate": "특정스텐트삽입수술특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": true,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_032",
+      "official_rider_name": "특정표적방사선허가치료특약(갱신형)",
+      "display_group_candidate": "특정표적방사선허가치료특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": true,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_033",
+      "official_rider_name": "표적항암약물허가치료특약(갱신형) 2형",
+      "display_group_candidate": "표적항암약물허가치료특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_034",
+      "official_rider_name": "카티(CAR-T)항암약물허가치료특약(갱신형)",
+      "display_group_candidate": "카티(CAR-T)항암약물허가치료특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_035",
+      "official_rider_name": "항암세기조절방사선치료특약(갱신형)",
+      "display_group_candidate": "항암세기조절방사선치료특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_036",
+      "official_rider_name": "항암양성자방사선치료특약(갱신형)",
+      "display_group_candidate": "항암양성자방사선치료특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_037",
+      "official_rider_name": "항암정위적방사선치료특약(갱신형)",
+      "display_group_candidate": "항암정위적방사선치료특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_038",
+      "official_rider_name": "항암중입자방사선치료특약(갱신형)",
+      "display_group_candidate": "항암중입자방사선치료특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_039",
+      "official_rider_name": "항암중입자방사선치료특약 LH",
+      "display_group_candidate": "항암중입자방사선치료특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_040",
+      "official_rider_name": "혈전용해치료보장특약",
+      "display_group_candidate": "혈전용해치료보장특약",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    },
+    {
+      "inventory_id": "INV_041",
+      "official_rider_name": "혈전용해치료보장특약(갱신형)Ⅱ",
+      "display_group_candidate": "혈전용해치료보장특약Ⅱ",
+      "coverage_type": "treatment",
+      "specific_scope_required": false,
+      "status": "needs_policy_validation"
+    }
+  ]
+}

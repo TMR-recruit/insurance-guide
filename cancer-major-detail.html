@@ -1,0 +1,29 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>암주요치료특약</title><style>
+*{box-sizing:border-box}body{margin:0;background:#eef2f7;font-family:Arial,'Noto Sans KR',sans-serif;color:#172033}.app{max-width:540px;margin:auto;min-height:100vh;background:#fff;padding:28px 20px 55px}.back{font-size:13px;color:#65738a;text-decoration:none}.eyebrow{font-size:12px;color:#65738a;margin-top:24px}.title{font-size:25px;line-height:1.4;margin:7px 0 18px}.hero{background:#fff0f4;border-radius:19px;padding:20px;font-size:18px;font-weight:700;line-height:1.55}.section{margin-top:28px}.section h2{font-size:18px;margin-bottom:12px}.card{border:1px solid #e4e9f0;border-radius:16px;padding:17px;margin:10px 0}.card b{display:block;font-size:15px;margin-bottom:7px}.card p{margin:0;color:#606c80;font-size:13px;line-height:1.7}.choice{background:#f7f9fc;border-radius:18px;padding:16px}.label{font-size:11px;color:#7b8798;margin:4px 0 7px}.tabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:14px}.tabs button{border:1px solid #dce3ec;background:#fff;border-radius:12px;padding:11px 7px;font-weight:700;color:#596579;cursor:pointer;font-size:12px;line-height:1.35}.tabs button.active{background:#172033;color:#fff;border-color:#172033}.result{background:#fff;border:1px solid #e4e9f0;border-radius:14px;padding:14px;font-size:12px;line-height:1.75;color:#566174}.result b{color:#172033}.source{margin-top:22px;font-size:11px;color:#929baa;line-height:1.7}summary{cursor:pointer}.hint{font-size:12px;color:#7b8798;line-height:1.6;margin:-3px 0 12px}</style></head><body><main class="app">
+<a class="back" href="index.html">← 주요 치료 특약</a><div class="eyebrow">암 · 주요 치료</div><h1 class="title">암주요치료특약</h1>
+<div class="hero">암 치료에서 중요한 수술·방사선치료·항암약물치료를 묶어 보장하는 특약입니다.</div>
+<section class="section"><h2>이 특약은 어떤 보장인가요?</h2>
+<div class="card"><b>🏥 암주요치료란?</b><p>이 약관에서 ‘암주요치료’에는 암수술, 항암방사선치료, 항암약물치료가 포함됩니다.</p></div>
+<div class="card"><b>🏥 암수술</b><p>약관에서 정한 의료인의 관리 아래 기구를 사용해 암의 직접적인 치료를 목적으로 절단·절제 등의 조작을 하는 수술입니다. 항암방사선치료와 항암약물치료는 암수술과 별도로 구분합니다.</p></div>
+<div class="card"><b>☢️ 항암방사선치료</b><p>방사선종양학과 전문의가 고에너지 전리 방사선을 조사해 암세포를 치료하는 방법입니다.</p></div>
+<div class="card"><b>💊 항암약물치료</b><p>해당 진료과 전문의가 항암화학요법 또는 항암면역요법을 통해 항암약물을 투여하여 치료하는 방법입니다.</p></div>
+<div class="card"><b>🛡️ 그래서 이 특약은?</b><p>약관에서 정한 암으로 진단되고 보험금 지급기간 안에 그 암의 직접적인 치료를 목적으로 암주요치료를 받은 경우를 보장하는 구조입니다.</p></div>
+</section>
+<section class="section"><h2>보장 형태를 확인해보세요</h2><p class="hint">같은 ‘암주요치료특약’ 안에서도 보장하는 암의 범위와 가입 형태가 나뉩니다.</p>
+<div class="choice">
+<div class="label">1. 보장 대상</div><div class="tabs"><button id="general" class="active" onclick="target='general';render()">암<br><small>(기타피부암·갑상선암 제외)</small></button><button id="small" onclick="target='small';render()">기타피부암<br>· 갑상선암</button></div>
+<div class="label">2. 가입 형태</div><div class="tabs"><button id="renew" class="active" onclick="contract='renew';render()">갱신형</button><button id="lh" onclick="contract='lh';render()">LH형<br><small>무해약환급금형</small></button></div>
+<div id="result" class="result"></div></div></section>
+<div class="source"><details><summary>정보 출처 보기</summary><p>보험정보: 교보생명 교보마이플랜건강보험Ⅱ 상품요약서 및 보험약관<br>암주요치료의 보험상 정의: 암수술 · 항암방사선치료 · 항암약물치료</p></details></div>
+</main><script>
+let target='general',contract='renew';
+function render(){
+['general','small'].forEach(x=>document.getElementById(x).classList.toggle('active',x===target));
+['renew','lh'].forEach(x=>document.getElementById(x).classList.toggle('active',x===contract));
+let t=target==='general'
+?'<b>암(기타피부암·갑상선암 제외)</b><br>암보장개시일 이후 암으로 진단되고, 보험금 지급기간 안에 그 암의 직접적인 치료를 목적으로 암주요치료를 받은 경우가 기본 구조입니다. 최초 진단확정일부터 연간 1회, 최대 10년입니다.'
+:'<b>기타피부암·갑상선암</b><br>기타피부암 또는 갑상선암으로 진단되고, 보험금 지급기간 안에 해당 암의 직접적인 치료를 목적으로 암주요치료를 받은 경우가 기본 구조입니다. 최초 진단확정일부터 연간 1회, 최대 10년입니다.';
+let c=contract==='renew'?'<br><br><b>가입 형태: 갱신형</b>':'<br><br><b>가입 형태: LH형(무해약환급금형)</b>';
+document.getElementById('result').innerHTML=t+c;
+}render();
+</script></body></html>

@@ -1,0 +1,22 @@
+{
+  "display_group_id": "DG_BRAIN_HEART_MAJOR",
+  "title": "뇌심주요치료특약",
+  "customer_flow": [
+    "어떤 특약인지",
+    "치료법 쉽게 설명",
+    "그래서 이 특약은?",
+    "약관 기준 안내"
+  ],
+  "coverage_components": [
+    "수술",
+    "혈전용해치료",
+    "중환자실치료"
+  ],
+  "payment_structure": {
+    "frequency": "최초 진단확정일부터 연간 1회",
+    "period": "최대 10년",
+    "max_payments": 10
+  },
+  "source_status": "policy_verified",
+  "note": "혈전제거수술을 이 특약의 2대질환주요치료 구성요소로 임의 추가하지 않음"
+}

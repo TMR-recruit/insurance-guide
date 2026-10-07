@@ -1,0 +1,12 @@
+{
+  "structured_riders": 23,
+  "video_input_ready": 16,
+  "blocked_medical_source": 7,
+  "gate_rules": [
+    "보험 출처 검증 전 영상 금지",
+    "의료 출처 검증 전 영상 금지",
+    "특정 특약은 정의/별표 검증 필요",
+    "보험금액은 영상 대본에서 제외",
+    "갱신/L/LH 계약형태는 고객 목록에서 숨김"
+  ]
+}

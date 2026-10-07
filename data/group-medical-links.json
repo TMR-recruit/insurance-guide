@@ -1,0 +1,35 @@
+[
+  {
+    "coverage_group": "G_BRAIN_THROMBECTOMY",
+    "medical_ids": [
+      "MED_001",
+      "MED_002"
+    ],
+    "reason": "뇌경색 + 혈전제거술"
+  },
+  {
+    "coverage_group": "G_THROMBOLYSIS",
+    "medical_ids": [
+      "MED_003"
+    ],
+    "reason": "혈전용해치료"
+  },
+  {
+    "coverage_group": "G_CIRC_MAJOR_TX",
+    "medical_ids": [
+      "MED_002",
+      "MED_003"
+    ],
+    "reason": "순환계 주요치료 중 혈전제거·혈전용해"
+  },
+  {
+    "coverage_group": "G_CANCER_MAJOR_TX",
+    "medical_ids": [
+      "MED_004",
+      "MED_005",
+      "MED_006",
+      "MED_007"
+    ],
+    "reason": "암주요치료 + 암수술 + 항암방사선치료 + 항암약물치료"
+  }
+]

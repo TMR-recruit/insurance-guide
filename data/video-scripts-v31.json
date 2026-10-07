@@ -1,0 +1,103 @@
+{
+  "version": "v31",
+  "scripts": [
+    {
+      "rider_id": "RIDER_BRAIN_THROMBECTOMY",
+      "display_name": "뇌경색증특정혈전제거수술특약",
+      "script_20_30s": "뇌경색증특정혈전제거수술특약, 이름이 조금 어렵죠? 쉽게 설명해드릴게요. 뇌경색 치료와 재발 예방에는 환자 상태에 따라 약물치료와 혈관 성형술·스텐트 삽입술 같은 비약물 치료가 사용될 수 있습니다. 이 특약은 뇌경색증으로 진단확정 + 직접적인 치료 목적 + 약관상 급여 뇌경색증 혈전제거수술에 해당하는 경우를 보장합니다. 다만 실제 보험금 지급은 교보생명 약관에서 정한 질병, 치료방법, 횟수와 지급조건을 충족해야 합니다.",
+      "script_status": "medical+insurance_verified",
+      "medical_source_id": "MED_CEREBRAL_INFARCTION"
+    },
+    {
+      "rider_id": "RIDER_HEART_THROMBECTOMY",
+      "display_name": "급성심근경색증특정혈전제거수술특약",
+      "script_20_30s": "급성심근경색증특정혈전제거수술특약, 이름이 조금 어렵죠? 쉽게 설명해드릴게요. 급성 심근경색에서는 막힌 관상동맥의 혈류를 회복하기 위해 혈관을 넓히는 시술이나 혈전을 녹이는 약물치료 등이 사용될 수 있습니다. 이 특약은 급성심근경색증으로 진단확정 + 직접적인 치료 목적 + 약관상 급여 급성심근경색증 혈전제거수술에 해당하는 경우를 보장합니다. 다만 실제 보험금 지급은 교보생명 약관에서 정한 질병, 치료방법, 횟수와 지급조건을 충족해야 합니다.",
+      "script_status": "medical+insurance_verified",
+      "medical_source_id": "MED_MI"
+    },
+    {
+      "rider_id": "RIDER_STENT",
+      "display_name": "특정스텐트삽입수술특약",
+      "script_20_30s": "특정스텐트삽입수술특약, 이름이 조금 어렵죠? 쉽게 설명해드릴게요. 스텐트 삽입술은 좁아지거나 막힌 혈관 부위를 넓혀 혈류가 지나갈 통로를 확보하는 데 사용되는 혈관 중재 치료입니다. 이 특약은 약관에서 정한 급여 스텐트삽입수술에 해당하는 경우를 보장합니다. 다만 실제 보험금 지급은 교보생명 약관에서 정한 질병, 치료방법, 횟수와 지급조건을 충족해야 합니다.",
+      "script_status": "medical+insurance_verified",
+      "medical_source_id": "MED_STENT"
+    },
+    {
+      "rider_id": "RIDER_BRAIN_HEART_MAJOR",
+      "display_name": "뇌심주요치료특약",
+      "script_20_30s": "뇌심주요치료특약은 현재 보험 약관상 보장 구조까지 확인된 상태입니다. 의료적인 쉬운 설명은 공신력 있는 의료 출처 확인 후 영상 대본에 결합합니다.",
+      "script_status": "medical_source_pending",
+      "medical_source_id": null
+    },
+    {
+      "rider_id": "RIDER_CIRC_MAJOR",
+      "display_name": "순환계질환주요치료특약",
+      "script_20_30s": "순환계질환주요치료특약은 현재 보험 약관상 보장 구조까지 확인된 상태입니다. 의료적인 쉬운 설명은 공신력 있는 의료 출처 확인 후 영상 대본에 결합합니다.",
+      "script_status": "medical_source_pending",
+      "medical_source_id": null
+    },
+    {
+      "rider_id": "RIDER_CEREBRAL_EMBOLIZATION",
+      "display_name": "특정뇌동맥질환혈관색전수술특약",
+      "script_20_30s": "특정뇌동맥질환혈관색전수술특약, 이름이 조금 어렵죠? 쉽게 설명해드릴게요. 뇌경색 치료와 재발 예방에는 환자 상태에 따라 약물치료와 혈관 성형술·스텐트 삽입술 같은 비약물 치료가 사용될 수 있습니다. 이 특약은 특정뇌동맥질환 진단확정 + 직접 치료 목적 + 급여 혈관색전수술(동맥류)에 해당하는 경우를 보장합니다. 다만 실제 보험금 지급은 교보생명 약관에서 정한 질병, 치료방법, 횟수와 지급조건을 충족해야 합니다.",
+      "script_status": "medical+insurance_verified",
+      "medical_source_id": "MED_CEREBRAL_INFARCTION"
+    },
+    {
+      "rider_id": "RIDER_STROKE_ICU",
+      "display_name": "급여뇌졸중집중치료실입원치료특약",
+      "script_20_30s": "급여뇌졸중집중치료실입원치료특약, 이름이 조금 어렵죠? 쉽게 설명해드릴게요. 뇌경색 치료와 재발 예방에는 환자 상태에 따라 약물치료와 혈관 성형술·스텐트 삽입술 같은 비약물 치료가 사용될 수 있습니다. 이 특약은 약관상 급여 뇌졸중 집중치료실 치료에 해당하는 경우를 보장합니다. 다만 실제 보험금 지급은 교보생명 약관에서 정한 질병, 치료방법, 횟수와 지급조건을 충족해야 합니다.",
+      "script_status": "medical+insurance_verified",
+      "medical_source_id": "MED_CEREBRAL_INFARCTION"
+    },
+    {
+      "rider_id": "RIDER_CIRC_ORAL_1",
+      "display_name": "특정순환계질환경구약물치료특약",
+      "script_20_30s": "특정순환계질환경구약물치료특약, 이름이 조금 어렵죠? 쉽게 설명해드릴게요. 혈전과 관련된 순환계 질환에서는 질환과 환자 상태에 따라 항혈소판제나 항응고제 등이 사용될 수 있습니다. 이 특약은 특정순환계질환 진단확정 + 직접 치료 목적 + 90일 이상 약관상 급여 경구약물치료에 해당하는 경우를 보장합니다. 다만 실제 보험금 지급은 교보생명 약관에서 정한 질병, 치료방법, 횟수와 지급조건을 충족해야 합니다.",
+      "script_status": "medical+insurance_verified",
+      "medical_source_id": "MED_CIRC_DRUG"
+    },
+    {
+      "rider_id": "RIDER_CIRC_ORAL_2",
+      "display_name": "특정순환계질환Ⅱ경구약물치료특약",
+      "script_20_30s": "특정순환계질환Ⅱ경구약물치료특약, 이름이 조금 어렵죠? 쉽게 설명해드릴게요. 혈전과 관련된 순환계 질환에서는 질환과 환자 상태에 따라 항혈소판제나 항응고제 등이 사용될 수 있습니다. 이 특약은 특정순환계질환Ⅱ 진단확정 + 직접 치료 목적 + 90일 이상 약관상 급여 경구약물치료에 해당하는 경우를 보장합니다. 다만 실제 보험금 지급은 교보생명 약관에서 정한 질병, 치료방법, 횟수와 지급조건을 충족해야 합니다.",
+      "script_status": "medical+insurance_verified",
+      "medical_source_id": "MED_CIRC_DRUG"
+    },
+    {
+      "rider_id": "RIDER_CIRC_INJECTION",
+      "display_name": "특정순환계질환주사치료특약",
+      "script_20_30s": "특정순환계질환주사치료특약, 이름이 조금 어렵죠? 쉽게 설명해드릴게요. 혈전과 관련된 순환계 질환에서는 질환과 환자 상태에 따라 항혈소판제나 항응고제 등이 사용될 수 있습니다. 이 특약은 특정순환계질환 진단확정 + 직접 치료 목적 + 약관상 급여 주사치료에 해당하는 경우를 보장합니다. 다만 실제 보험금 지급은 교보생명 약관에서 정한 질병, 치료방법, 횟수와 지급조건을 충족해야 합니다.",
+      "script_status": "medical+insurance_verified",
+      "medical_source_id": "MED_CIRC_DRUG"
+    },
+    {
+      "rider_id": "CANCER_MAJOR",
+      "display_name": "암주요치료특약",
+      "script_20_30s": "암주요치료특약, 이름이 조금 어렵죠? 쉽게 설명해드릴게요. 암 치료에는 수술, 항암약물치료, 방사선치료 등이 주요 치료 방법으로 사용됩니다. 이 특약은 암 또는 기타피부암·갑상선암의 해당 보장형에서 진단확정 후 보험금 지급기간 내 직접 치료 목적으로 약관상 암주요치료에 해당하는 경우를 보장합니다. 다만 실제 보험금 지급은 교보생명 약관에서 정한 질병, 치료방법, 횟수와 지급조건을 충족해야 합니다.",
+      "script_status": "medical+insurance_verified",
+      "medical_source_id": "MED_CANCER_MAJOR"
+    },
+    {
+      "rider_id": "CANCER_MAJOR_TERTIARY",
+      "display_name": "상급종합병원암주요치료특약",
+      "script_20_30s": "상급종합병원암주요치료특약, 이름이 조금 어렵죠? 쉽게 설명해드릴게요. 암 치료에는 수술, 항암약물치료, 방사선치료 등이 주요 치료 방법으로 사용됩니다. 이 특약은 해당 암 진단확정 후 보험금 지급기간 내 직접 치료 목적으로 상급종합병원에서 약관상 암주요치료에 해당하는 경우를 보장합니다. 다만 실제 보험금 지급은 교보생명 약관에서 정한 질병, 치료방법, 횟수와 지급조건을 충족해야 합니다.",
+      "script_status": "medical+insurance_verified",
+      "medical_source_id": "MED_CANCER_MAJOR"
+    },
+    {
+      "rider_id": "CANCER_NONCOVERED_MAJOR",
+      "display_name": "비급여암주요치료특약",
+      "script_20_30s": "비급여암주요치료특약, 이름이 조금 어렵죠? 쉽게 설명해드릴게요. 암 치료에는 수술, 항암약물치료, 방사선치료 등이 주요 치료 방법으로 사용됩니다. 이 특약은 암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 최초 진단확정 + 지급기간 내 직접 치료 목적의 급여전액본인부담(비급여포함) 암주요치료에 해당하는 경우를 보장합니다. 다만 실제 보험금 지급은 교보생명 약관에서 정한 질병, 치료방법, 횟수와 지급조건을 충족해야 합니다.",
+      "script_status": "medical+insurance_verified",
+      "medical_source_id": "MED_CANCER_MAJOR"
+    },
+    {
+      "rider_id": "CANCER_NONCOVERED_DRUG",
+      "display_name": "비급여항암약물치료특약",
+      "script_20_30s": "비급여항암약물치료특약, 이름이 조금 어렵죠? 쉽게 설명해드릴게요. 암 치료에는 수술, 항암약물치료, 방사선치료 등이 주요 치료 방법으로 사용됩니다. 이 특약은 암보장개시일 이후 암 또는 보장개시일 이후 기타피부암·갑상선암 최초 진단확정 + 지급기간 내 직접 치료 목적의 급여전액본인부담(비급여포함) 항암약물치료에 해당하는 경우를 보장합니다. 다만 실제 보험금 지급은 교보생명 약관에서 정한 질병, 치료방법, 횟수와 지급조건을 충족해야 합니다.",
+      "script_status": "medical+insurance_verified",
+      "medical_source_id": "MED_CANCER_MAJOR"
+    }
+  ]
+}

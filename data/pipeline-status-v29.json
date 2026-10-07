@@ -1,0 +1,7 @@
+{
+  "inventory_and_variant_normalization": "in_progress",
+  "coverage_rules_structured": 10,
+  "medical_source_linking": "next",
+  "customer_script_generation": "blocked_until_medical_source_verified",
+  "manual_rider_building": "stopped"
+}

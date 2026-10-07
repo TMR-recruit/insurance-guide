@@ -1,0 +1,68 @@
+{
+  "version": "v31",
+  "principle": "보험 지급조건과 의료 설명을 분리 저장한다. 의료 출처 내용으로 보험금 지급 여부를 추론하지 않는다.",
+  "terms": [
+    {
+      "id": "MED_CANCER_MAJOR",
+      "label": "암 주요 치료",
+      "easy_explanation": "암 치료에는 수술, 항암약물치료, 방사선치료 등이 주요 치료 방법으로 사용됩니다.",
+      "source_name": "국가암지식정보센터",
+      "source_url": "https://www.cancer.go.kr/",
+      "source_status": "verified",
+      "linked_riders": [
+        "CANCER_MAJOR",
+        "CANCER_MAJOR_TERTIARY",
+        "CANCER_NONCOVERED_MAJOR",
+        "CANCER_NONCOVERED_DRUG"
+      ]
+    },
+    {
+      "id": "MED_STENT",
+      "label": "스텐트 삽입술",
+      "easy_explanation": "스텐트 삽입술은 좁아지거나 막힌 혈관 부위를 넓혀 혈류가 지나갈 통로를 확보하는 데 사용되는 혈관 중재 치료입니다.",
+      "source_name": "서울아산병원 질환백과",
+      "source_url": "https://amccp.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32179",
+      "source_status": "verified",
+      "linked_riders": [
+        "RIDER_STENT"
+      ]
+    },
+    {
+      "id": "MED_MI",
+      "label": "급성심근경색 치료",
+      "easy_explanation": "급성 심근경색에서는 막힌 관상동맥의 혈류를 회복하기 위해 혈관을 넓히는 시술이나 혈전을 녹이는 약물치료 등이 사용될 수 있습니다.",
+      "source_name": "서울아산병원 질환백과",
+      "source_url": "https://amccp.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32111",
+      "source_status": "verified",
+      "linked_riders": [
+        "RIDER_HEART_THROMBECTOMY"
+      ]
+    },
+    {
+      "id": "MED_CEREBRAL_INFARCTION",
+      "label": "뇌경색 치료",
+      "easy_explanation": "뇌경색 치료와 재발 예방에는 환자 상태에 따라 약물치료와 혈관 성형술·스텐트 삽입술 같은 비약물 치료가 사용될 수 있습니다.",
+      "source_name": "서울아산병원 질환백과",
+      "source_url": "https://amccp.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31996",
+      "source_status": "verified",
+      "linked_riders": [
+        "RIDER_BRAIN_THROMBECTOMY",
+        "RIDER_STROKE_ICU",
+        "RIDER_CEREBRAL_EMBOLIZATION"
+      ]
+    },
+    {
+      "id": "MED_CIRC_DRUG",
+      "label": "순환계 약물치료",
+      "easy_explanation": "혈전과 관련된 순환계 질환에서는 질환과 환자 상태에 따라 항혈소판제나 항응고제 등이 사용될 수 있습니다.",
+      "source_name": "서울아산병원 질환백과",
+      "source_url": "https://amccp.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31996",
+      "source_status": "verified",
+      "linked_riders": [
+        "RIDER_CIRC_ORAL_1",
+        "RIDER_CIRC_ORAL_2",
+        "RIDER_CIRC_INJECTION"
+      ]
+    }
+  ]
+}

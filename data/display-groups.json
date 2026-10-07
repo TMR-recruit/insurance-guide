@@ -1,0 +1,81 @@
+[
+  {
+    "display_id": "DG_CANCER_MAJOR",
+    "label": "암 주요치료",
+    "display_name": "암주요치료특약",
+    "variants": [
+      "갱신형",
+      "LH(무해약환급금형)"
+    ],
+    "coverage_group": "G_CANCER_MAJOR_TX",
+    "variant_axes": {
+      "coverage_target": [
+        "암(기타피부암·갑상선암 제외)",
+        "기타피부암·갑상선암"
+      ],
+      "contract_type": [
+        "갱신형",
+        "LH(무해약환급금형)"
+      ]
+    },
+    "underlying_count": 4
+  },
+  {
+    "display_id": "DG_BRAIN_THROMBECTOMY",
+    "label": "혈전제거술",
+    "display_name": "뇌경색증특정혈전제거수술특약",
+    "variants": [
+      "갱신형",
+      "LH(무해약환급금형)"
+    ],
+    "coverage_group": "G_BRAIN_THROMBECTOMY"
+  },
+  {
+    "display_id": "DG_BRAIN_EMBOLIZATION",
+    "label": "혈관색전술",
+    "display_name": "특정뇌동맥질환혈관색전수술특약",
+    "variants": [
+      "갱신형",
+      "LH(무해약환급금형)"
+    ]
+  },
+  {
+    "display_id": "DG_HEART_SURGERY",
+    "label": "심장질환 수술",
+    "display_name": "심장질환수술보장특약",
+    "variants": [
+      "갱신형",
+      "LH(무해약환급금형)"
+    ]
+  },
+  {
+    "display_id": "DG_STENT",
+    "label": "스텐트삽입술",
+    "display_name": "특정스텐트삽입수술특약",
+    "variants": [
+      "갱신형",
+      "LH(무해약환급금형)"
+    ]
+  },
+  {
+    "display_id": "DG_CIRC_MAJOR",
+    "label": "수술·혈전제거·혈전용해",
+    "display_name": "순환계질환주요치료특약",
+    "variants": [
+      "갱신형",
+      "LH(무해약환급금형)"
+    ],
+    "coverage_group": "G_CIRC_MAJOR_TX"
+  },
+  {
+    "display_id": "DG_HEART_THROMBECTOMY",
+    "label": "혈전제거술",
+    "display_name": "급성심근경색증특정혈전제거수술특약",
+    "variants": [
+      "갱신형",
+      "LH(무해약환급금형)"
+    ],
+    "underlying_count": 2,
+    "source_confirmed": true
+  }
+]
