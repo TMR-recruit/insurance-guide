@@ -1,0 +1,318 @@
+[
+  {
+    "detail_file": "detail-rider_stent.html",
+    "medical_title": "스텐트삽입술은 어떤 치료인가요?",
+    "customer_explanation": "관상동맥 질환에서는 카테터를 이용해 좁아진 혈관을 넓히고, 필요한 경우 혈관 안에 스텐트를 삽입해 통로를 유지하는 중재시술을 시행할 수 있습니다. 뇌혈관·대동맥 스텐트는 적용 부위와 시술 방법이 다를 수 있으므로 이 화면에서는 관상동맥 치료의 일반 원리만 공공 의료정보를 바탕으로 설명합니다.",
+    "sources": [
+      {
+        "organization": "질병관리청 국가건강정보포털",
+        "title": "협심증",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6566",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-rider_brain_thrombectomy.html",
+    "medical_title": "뇌경색 혈전제거술은 어떤 치료인가요?",
+    "customer_explanation": "뇌혈관이 막힌 급성 뇌경색에서는 환자 상태에 따라 혈관 안으로 기구를 접근시켜 막힌 혈전을 제거하고 혈류를 다시 확보하는 응급 치료가 시행될 수 있습니다. 실제 치료 여부와 방법은 막힌 혈관의 위치, 증상 발생 시간, 영상검사 결과 등을 고려해 의료진이 판단합니다.",
+    "sources": [
+      {
+        "organization": "질병관리청 국가건강정보포털",
+        "title": "뇌졸중",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5495",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-rider_heart_thrombectomy.html",
+    "medical_title": "급성 심근경색은 어떻게 치료하나요?",
+    "customer_explanation": "급성 심근경색증은 심장에 혈액을 공급하는 관상동맥이 갑자기 막히는 응급질환입니다. 치료에는 관상동맥 중재시술, 혈전용해제, 항혈소판제·항응고제 등이 사용될 수 있습니다. 이 특약의 ‘특정 혈전제거수술’ 범위는 이러한 일반 치료 설명이 아니라 약관에서 정한 수술 기준으로 판단합니다.",
+    "sources": [
+      {
+        "organization": "질병관리청 국가건강정보포털",
+        "title": "급성 심근경색증",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6770",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-rider_cerebral_embolization.html",
+    "medical_title": "뇌동맥류 코일색전술이란?",
+    "customer_explanation": "코일색전술은 다리나 손목 등의 혈관을 통해 가느다란 기구를 뇌혈관까지 접근시킨 뒤, 뇌동맥류 안에 코일을 채워 혈류가 들어가는 것을 줄이는 치료입니다. 환자의 동맥류 위치와 형태 등에 따라 수술적 치료와 혈관내 치료 중 적절한 방법을 선택합니다.",
+    "sources": [
+      {
+        "organization": "질병관리청 국가건강정보포털",
+        "title": "뇌동맥류",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5963",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-rider_stroke_icu.html",
+    "medical_title": "중환자실에서는 어떤 치료를 하나요?",
+    "customer_explanation": "중환자실은 상태가 위중한 환자의 호흡·심혈관 등 주요 장기 기능을 지속적으로 관찰하면서 환자 상태에 맞춘 전문적인 집중치료를 시행하는 곳입니다. 뇌졸중 환자의 실제 중환자실 입원 필요성은 중증도와 임상 상태에 따라 결정됩니다.",
+    "sources": [
+      {
+        "organization": "질병관리청 국가건강정보포털",
+        "title": "중환자실 치료",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6706",
+        "verified": "2026-10-08"
+      },
+      {
+        "organization": "질병관리청 국가건강정보포털",
+        "title": "뇌졸중",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5495",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-rider_brain_heart_major.html",
+    "medical_title": "뇌·심장 주요치료를 이해해 보세요",
+    "customer_explanation": "이 특약은 하나의 치료법만을 뜻하지 않습니다. 약관상 주요치료에는 수술·혈전용해치료·중환자실치료가 포함됩니다. 뇌졸중과 급성 심근경색증은 응급 상황에서 혈류를 회복시키는 치료가 필요할 수 있고, 상태가 위중하면 중환자실 집중치료가 시행될 수 있습니다.",
+    "sources": [
+      {
+        "organization": "질병관리청 국가건강정보포털",
+        "title": "뇌졸중",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5495",
+        "verified": "2026-10-08"
+      },
+      {
+        "organization": "질병관리청 국가건강정보포털",
+        "title": "급성 심근경색증",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6770",
+        "verified": "2026-10-08"
+      },
+      {
+        "organization": "질병관리청 국가건강정보포털",
+        "title": "중환자실 치료",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6706",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-rider_circ_major.html",
+    "medical_title": "순환계질환 치료는 질환에 따라 달라집니다",
+    "customer_explanation": "순환계질환은 범위가 넓어 한 가지 치료로 설명할 수 없습니다. 예를 들어 뇌졸중과 급성 심근경색증에서는 막힌 혈관의 혈류를 회복시키는 치료와 약물치료 등이 시행될 수 있습니다. 이 특약에서 보장하는 ‘순환계질환(뇌)/(심)’의 정확한 범위와 치료 항목은 약관을 기준으로 합니다.",
+    "sources": [
+      {
+        "organization": "질병관리청 국가건강정보포털",
+        "title": "뇌졸중",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5495",
+        "verified": "2026-10-08"
+      },
+      {
+        "organization": "질병관리청 국가건강정보포털",
+        "title": "급성 심근경색증",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6770",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-rider_circ_oral_1.html",
+    "medical_title": "항응고제 경구치료란?",
+    "customer_explanation": "항응고제는 혈액의 응고 능력을 낮춰 혈관 안에서 비정상적인 혈전이 생기는 것을 막는 약물입니다. 질병관리청은 경구 항응고제로 와파린과 비타민 K 비의존성 경구 항응고제 등을 설명하고 있습니다. 어떤 약을 얼마나 오래 사용하는지는 질환과 환자 상태에 따라 달라집니다.",
+    "sources": [
+      {
+        "organization": "질병관리청 국가건강정보포털",
+        "title": "항응고요법",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6558",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-rider_circ_oral_2.html",
+    "medical_title": "항혈소판제 경구치료란?",
+    "customer_explanation": "항혈소판제는 혈소판이 서로 뭉쳐 혈전이 만들어지는 것을 억제하는 약입니다. 대표적으로 아스피린이 있으며, 환자 상태에 따라 클로피도그렐 등 다른 항혈소판제가 사용될 수 있습니다. 보험의 90일 이상 투여 조건은 의료정보가 아니라 해당 특약 약관의 지급조건입니다.",
+    "sources": [
+      {
+        "organization": "질병관리청 국가건강정보포털",
+        "title": "협심증",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6566",
+        "verified": "2026-10-08"
+      },
+      {
+        "organization": "질병관리청 국가건강정보포털",
+        "title": "뇌졸중",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=5495",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-rider_circ_injection.html",
+    "medical_title": "주사 항응고치료는 어떤 치료인가요?",
+    "customer_explanation": "질병관리청은 항응고제를 혈전 형성을 억제하는 약물로 설명하며, 헤파린 계열은 주사제로 사용되는 항응고제에 포함됩니다. 다만 이 특약은 항응고제뿐 아니라 약관에서 정한 주사치료를 대상으로 하므로, 정확한 대상 약제와 급여 조건은 약관 기준으로 확인해야 합니다.",
+    "sources": [
+      {
+        "organization": "질병관리청 국가건강정보포털",
+        "title": "항응고요법",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6558",
+        "verified": "2026-10-08"
+      },
+      {
+        "organization": "질병관리청 국가건강정보포털",
+        "title": "급성 심근경색증",
+        "url": "https://health.kdca.go.kr/healthinfo/biz/health/gnrlzHealthInfo/gnrlzHealthInfo/gnrlzHealthInfoView.do?cntnts_sn=6770",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-cancer_major.html",
+    "medical_title": "암 치료의 주요 방법을 이해해 보세요",
+    "customer_explanation": "암 치료에는 암의 종류와 진행 정도 등에 따라 수술, 항암약물치료, 방사선치료 등이 사용될 수 있습니다. 실제 치료 방법은 암종·병기·환자 상태에 따라 달라지며, 이 화면의 보험 보장 범위는 아래의 약관 기준을 따릅니다.",
+    "sources": [
+      {
+        "organization": "국립암센터 국가암정보센터",
+        "title": "암생존자 통합지지 안내",
+        "url": "https://edu.cancer.go.kr/lay1/S1T786C784/contents.do",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-cancer_major_tertiary.html",
+    "medical_title": "암 치료의 주요 방법을 이해해 보세요",
+    "customer_explanation": "암 치료에는 암의 종류와 진행 정도 등에 따라 수술, 항암약물치료, 방사선치료 등이 사용될 수 있습니다. 실제 치료 방법은 암종·병기·환자 상태에 따라 달라지며, 이 화면의 보험 보장 범위는 아래의 약관 기준을 따릅니다.",
+    "sources": [
+      {
+        "organization": "국립암센터 국가암정보센터",
+        "title": "암생존자 통합지지 안내",
+        "url": "https://edu.cancer.go.kr/lay1/S1T786C784/contents.do",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-cancer_noncovered_major.html",
+    "medical_title": "암 치료의 주요 방법을 이해해 보세요",
+    "customer_explanation": "암 치료에는 암의 종류와 진행 정도 등에 따라 수술, 항암약물치료, 방사선치료 등이 사용될 수 있습니다. 실제 치료 방법은 암종·병기·환자 상태에 따라 달라지며, 이 화면의 보험 보장 범위는 아래의 약관 기준을 따릅니다.",
+    "sources": [
+      {
+        "organization": "국립암센터 국가암정보센터",
+        "title": "암생존자 통합지지 안내",
+        "url": "https://edu.cancer.go.kr/lay1/S1T786C784/contents.do",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-cancer_noncovered_drug.html",
+    "medical_title": "항암약물치료란?",
+    "customer_explanation": "항암약물치료는 암의 종류와 상태에 따라 항암제를 사용해 암을 치료하는 방법입니다. 실제 사용 약제와 투여 방법은 암종과 치료 목적에 따라 달라집니다. 비급여 여부와 보험금 지급조건은 의료정보가 아니라 특약 약관을 기준으로 합니다.",
+    "sources": [
+      {
+        "organization": "국립암센터 국가암정보센터",
+        "title": "암생존자 통합지지 안내",
+        "url": "https://edu.cancer.go.kr/lay1/S1T786C784/contents.do",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-cancer_imrt.html",
+    "medical_title": "세기조절방사선치료(IMRT)란?",
+    "customer_explanation": "세기조절방사선치료는 여러 방향에서 방사선을 조사하면서 각 방향의 방사선 세기를 조절해 종양에는 필요한 선량을 전달하고 주변 정상조직의 노출을 줄이도록 계획하는 방사선치료 기술입니다.",
+    "sources": [
+      {
+        "organization": "국립암센터 국가암정보센터",
+        "title": "방사선치료의 이해",
+        "url": "https://www.cancer.go.kr/lay1/S1T292C293/contents.do",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-cancer_proton.html",
+    "medical_title": "양성자방사선치료란?",
+    "customer_explanation": "양성자치료는 양성자 입자선을 이용하는 방사선치료입니다. 양성자가 몸속 일정 깊이에서 에너지를 집중적으로 전달하는 특성을 이용해 종양을 치료하며, 적용 여부는 암의 종류와 위치 등에 따라 달라집니다.",
+    "sources": [
+      {
+        "organization": "국립암센터 국가암정보센터",
+        "title": "방사선치료의 이해",
+        "url": "https://www.cancer.go.kr/lay1/S1T292C293/contents.do",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-cancer_stereotactic_rt.html",
+    "medical_title": "정위적방사선치료란?",
+    "customer_explanation": "정위적방사선치료는 영상검사 등을 이용해 종양의 위치를 정밀하게 파악한 뒤, 여러 방향에서 방사선을 집중해 조사하는 치료입니다. 치료 횟수와 선량은 질환과 치료 계획에 따라 달라집니다.",
+    "sources": [
+      {
+        "organization": "국립암센터 국가암정보센터",
+        "title": "방사선치료의 이해",
+        "url": "https://www.cancer.go.kr/lay1/S1T292C293/contents.do",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-cancer_heavy_ion.html",
+    "medical_title": "중입자방사선치료란?",
+    "customer_explanation": "중입자치료는 탄소 이온과 같은 무거운 입자선을 이용하는 방사선치료입니다. 입자선이 몸속 특정 깊이에 에너지를 집중시키는 특성을 이용하며, 실제 적용 가능 여부는 암종과 병기, 종양 위치 등을 고려해 판단합니다.",
+    "sources": [
+      {
+        "organization": "국립암센터 국가암정보센터",
+        "title": "방사선치료의 이해",
+        "url": "https://www.cancer.go.kr/lay1/S1T292C293/contents.do",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-cancer_davinci.html",
+    "medical_title": "다빈치 로봇수술이란?",
+    "customer_explanation": "로봇수술은 의사가 콘솔에서 수술기구가 연결된 로봇 팔을 조작해 시행하는 수술 방법입니다. 국립암센터 국가암정보센터는 다빈치 로봇수술이 암 치료에 사용되지만 암종과 진행 정도에 따라 적용 여부가 달라질 수 있다고 설명합니다.",
+    "sources": [
+      {
+        "organization": "국립암센터 국가암정보센터",
+        "title": "다빈치 로봇수술 관련 팩트체크",
+        "url": "https://www.cancer.go.kr/lay1/bbs/S1T832C835/F/75/view.do?article_seq=43799&cpage=22&mode=view&rn=213&rows=10",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  },
+  {
+    "detail_file": "detail-cancer_davinci_ex.html",
+    "medical_title": "다빈치 로봇수술이란?",
+    "customer_explanation": "로봇수술은 의사가 콘솔에서 수술기구가 연결된 로봇 팔을 조작해 시행하는 수술 방법입니다. 국립암센터 국가암정보센터는 다빈치 로봇수술이 암 치료에 사용되지만 암종과 진행 정도에 따라 적용 여부가 달라질 수 있다고 설명합니다.",
+    "sources": [
+      {
+        "organization": "국립암센터 국가암정보센터",
+        "title": "다빈치 로봇수술 관련 팩트체크",
+        "url": "https://www.cancer.go.kr/lay1/bbs/S1T832C835/F/75/view.do?article_seq=43799&cpage=22&mode=view&rn=213&rows=10",
+        "verified": "2026-10-08"
+      }
+    ],
+    "rule": "의료정보는 치료 이해에만 사용하며 보험금 지급조건은 약관에서 별도 판단"
+  }
+]
